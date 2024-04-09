@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 import { Container, Content, Information, Image } from "./styles";
 
 interface AnuncioProps {
-  imgUrl: string;
+  imgUrl?: string;
 }
 
 export function Anuncio({ imgUrl }: AnuncioProps) {
