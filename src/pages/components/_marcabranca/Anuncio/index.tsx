@@ -11,7 +11,7 @@ export function Anuncio({ imgUrl }: AnuncioProps) {
     <Container>
       <Content>
         <Image src={imgUrl} />
-        <Information></Information>
+        <Information>AAAAAAA</Information>
       </Content>
     </Container>
   );

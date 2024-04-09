@@ -8,7 +8,6 @@ export const Container = styled.div`
   align-items: center;
   flex-flow: column;
   padding: 20px 0;
-  background-color: red;
 `;
 
 export const Content = styled.div`
@@ -16,7 +15,7 @@ export const Content = styled.div`
   height: fit-content;
   width: 100%;
   display: flex;
-  flex-flow: column;
+
   justify-content: center;
   align-items: center;
 
@@ -54,5 +53,9 @@ export const Content = styled.div`
     align-items: center;
   }
 `;
-export const Image = styled.img``;
-export const Information = styled.div``;
+export const Image = styled.img`
+  width: 50%;
+`;
+export const Information = styled.div`
+  width: 100%;
+`;

@@ -13,7 +13,7 @@ export function GoogleLote() {
       </Helmet>
       <Container>
         <Banner />
-        <Anuncio />
+        <Anuncio imgUrl="/terreno.jpg" />
       </Container>
     </>
   );

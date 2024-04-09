@@ -43,6 +43,10 @@ const router = createBrowserRouter([
     path: "/google-lote",
     element: <GoogleLote />,
   },
+  {
+    path: "/qr1",
+    element: <Navigate to="/dn1/apresentacaodn1.pdf" replace={true} />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
