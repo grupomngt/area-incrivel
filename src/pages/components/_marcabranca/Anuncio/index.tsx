@@ -12,10 +12,9 @@ import {
 
 interface AnuncioProps {
   imgUrl?: string;
-  valor?: string;
 }
 
-export function Anuncio({ imgUrl, valor }: AnuncioProps) {
+export function Anuncio({ imgUrl }: AnuncioProps) {
   return (
     <Container>
       <Content>
