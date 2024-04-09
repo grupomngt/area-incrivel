@@ -15,7 +15,7 @@ import { Explore } from "../components/3D";
 import { Numeros } from "../components/Numeros";
 import { Ofertas } from "../components/Ofertas";
 import { PontosDeInteresse } from "../components/PontosDeInteresse";
-import { Redes } from "../components/Redes";
+
 import { Depoimentos } from "../components/Depoimentos";
 import { Imagens } from "../components/Imagens";
 import { Garantia } from "../components/Garantia";
@@ -25,6 +25,7 @@ import { Empresas } from "../../components/Empresas";
 import { SobreArea } from "../components/SobreArea";
 import { Helmet } from "react-helmet";
 import { GrupoMNGT } from "../../components/GrupoMNGT";
+import { Redes } from "../../components/Redes";
 export function DiNapoliI() {
   const dataPhase = [
     {
@@ -83,7 +84,7 @@ export function DiNapoliI() {
           subname="Condomínio Residencial"
           name={empreendimento}
           description="Casas de 2 ou 3 quartos"
-          value="1.430,00"
+          value="1.074,00"
           facebook="https://www.facebook.com/area.incrivelrc"
           instagram="https://www.instagram.com/dinapoli_residencial/"
           whatsapp=""
@@ -146,11 +147,15 @@ export function DiNapoliI() {
         {/* <EA /> */}
         <SobreArea />
 
-        <Redes
+        {/* <Redes
           instagram="https://www.instagram.com/dinapoli_residencial/"
           facebook="https://www.facebook.com/dinapoli1.residencial"
           mockupImgInsta="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492175/public/dn1/mockupdn1_ee7p8o.png"
           mockupImgFace="https://res.cloudinary.com/duv6mjghr/image/upload/v1712167494/dn1/facedn1mockup_rsebyl.png"
+        /> */}
+        <Redes
+          facebook="https://www.facebook.com/area.incrivelrc"
+          instagram="https://www.instagram.com/area.incrivel/"
         />
         <GrupoMNGT />
         <Footer />

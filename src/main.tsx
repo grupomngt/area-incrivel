@@ -14,6 +14,7 @@ import { DiNapoliII } from "./pages/DiNapoliII/index.tsx";
 import { ToastContainer } from "react-toastify";
 import { WhatsappButton } from "./components/elements/WhatsappButton/index.tsx";
 import "react-toastify/dist/ReactToastify.css";
+import { GoogleLote } from "./pages/GoogleLotes/index.tsx";
 
 function WhatsappRedirect() {
   window.location.href =
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: "/dn2-folder",
     element: <WhatsappRedirect />,
+  },
+  {
+    path: "/google-lote",
+    element: <GoogleLote />,
   },
 ]);
 
