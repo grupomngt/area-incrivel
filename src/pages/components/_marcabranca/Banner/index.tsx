@@ -13,7 +13,7 @@ export function Banner({ type, number }: AnuncioProps) {
       <Content>
         <h1>VENDE-SE {type}</h1>
         <h2>EM CONDOMÍNIO</h2>
-        <h3>R$ 99 MIL FINANCIADO</h3>
+        <h3>R$ {number} MIL FINANCIADO</h3>
         <Number>
           <h4>19999999999</h4>
           <span>DIRETO COM O PROPRIETÁRIO</span>

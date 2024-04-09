@@ -12,7 +12,7 @@ export function GoogleLote() {
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <Container>
-        <Banner />
+        <Banner number="99" type="LOTE" />
         <Anuncio imgUrl="/terreno.jpg" />
       </Container>
     </>
