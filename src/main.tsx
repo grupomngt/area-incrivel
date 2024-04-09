@@ -15,6 +15,7 @@ import { ToastContainer } from "react-toastify";
 import { WhatsappButton } from "./components/elements/WhatsappButton/index.tsx";
 import "react-toastify/dist/ReactToastify.css";
 import { GoogleLote } from "./pages/GoogleLotes/index.tsx";
+import { Qr } from "./pages/QR/index.tsx";
 
 function WhatsappRedirect() {
   window.location.href =
@@ -45,13 +46,14 @@ const router = createBrowserRouter([
   },
   {
     path: "/qr1",
-    element: <Navigate to="/dn1/apresentacaodn1.pdf" replace={true} />,
+    element: <Qr path="/dn1/apresentacaodn1.pdf" />,
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
+
     <ToastContainer />
     <WhatsappButton />
   </React.StrictMode>

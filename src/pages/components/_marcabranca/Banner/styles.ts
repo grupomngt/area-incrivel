@@ -54,4 +54,32 @@ export const Content = styled.div`
     align-items: center;
   }
 `;
-export const Number = styled.div``;
+export const Number = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+
+  span {
+    color: #fff;
+  }
+
+  @media (max-width: 767px) {
+    flex-flow: column;
+    gap: 15px;
+  }
+`;
+
+export const Whatsapp = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  img {
+    width: 40px;
+  }
+`;
