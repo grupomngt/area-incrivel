@@ -103,15 +103,6 @@ export function DiNapoliII() {
               allowFullScreen
             ></iframe>
           }
-          // iframe={
-          //   <iframe
-          //     width="100%"
-          //     src="https://www.youtube.com/embed/LwuLEmqY1Xc"
-          //     title="Como é a vida no Recanto Paraiso em Rio Claro - SP?"
-          //     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          //     allowFullScreen
-          //   ></iframe>
-          // }
           empreendimento={empreendimento}
           apresentacao="https://res.cloudinary.com/duv6mjghr/image/upload/v1712592778/dn2/Di_Napoli_II_1_pmql2g.png"
         />
@@ -138,7 +129,6 @@ export function DiNapoliII() {
           empreendimentoItens="dinapoli2"
         />
 
-        {/* <EA /> */}
         <SobreArea />
 
         <Redes

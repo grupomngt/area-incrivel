@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode, useEffect } from "react";
 
 import { Container } from "./styles";
 
@@ -26,10 +26,11 @@ import { SobreArea } from "../components/SobreArea";
 import { Helmet } from "react-helmet";
 import { GrupoMNGT } from "../../components/GrupoMNGT";
 import { Redes } from "../../components/Redes";
-
+import ReactPixel from "react-facebook-pixel";
 import TagManager from "react-gtm-module";
 
 const tagManagerArgs = {
+  gtmId: "GTM-KXPBB883",
   dataLayer: {
     page: "Di Napoli I",
   },
@@ -38,6 +39,11 @@ const tagManagerArgs = {
 
 export function DiNapoliI() {
   TagManager.dataLayer(tagManagerArgs);
+  useEffect(() => {
+    ReactPixel.init("1528293361047131");
+
+    TagManager.initialize(tagManagerArgs);
+  }, []);
   const dataPhase = [
     {
       name: "Fundação",
