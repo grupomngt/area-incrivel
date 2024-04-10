@@ -87,7 +87,7 @@ export function DiNapoliII() {
         <Numeros empreendimentoItens="dinapoli2" />
         <Sobre
           logoEmpreendimento="https://res.cloudinary.com/duv6mjghr/image/upload/v1712586382/dn2/logodn2_xi3ie4.png"
-          about="O lugar do seu sonho é o Condompinio Di Napoli II, que fica num bairro encantador, o Recanto Paraíso. São exclusivos 36 lotes de 105 m² a 120 m², com vista encantadora para a Serra do Itaqueri. Sua casa pode ser modular ou ter uma planta incrível bem charmosa, humanizada e tecnológica. O Di Napoli II é o lugar para ser e pertencer, com possibilidade de geração de energia solar limpa, automação residencial e qualidade de vida excepcional."
+          about="O lugar do seu sonho é o Condomínio Di Napoli II, que fica num bairro encantador, o Recanto Paraíso. São exclusivos 36 lotes de 105 m² a 120 m², com vista encantadora para a Serra do Itaqueri. Sua casa pode ser modular ou ter uma planta incrível bem charmosa, humanizada e tecnológica. O Di Napoli II é o lugar para ser e pertencer, com possibilidade de geração de energia solar limpa, automação residencial e qualidade de vida excepcional."
           linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20II"
         />
 

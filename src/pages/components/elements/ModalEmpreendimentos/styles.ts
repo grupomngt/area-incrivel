@@ -22,7 +22,7 @@ export const ModalContent = styled.div`
   background-color: #fff;
   padding: 25px;
   border-radius: 5px;
-  width: 900px;
+  width: 800px;
   display: flex;
   position: relative;
   img {

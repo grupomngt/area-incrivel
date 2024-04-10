@@ -161,16 +161,22 @@ export const empreendimentos: any = {
         title: "casa de 39 m²",
         preco: "R$ 740,00",
         list: ["item 1", "item 2", "item 3"],
+        planta: "/dn2/CM01.png",
+        modal: "/dn2/modal/casa39.png",
       },
       {
         title: "casa de 48 m²",
         preco: "R$ 931,00",
         list: ["item 1", "item 2", "item 3"],
+        planta: "/dn2/CM02.png",
+        modal: "/dn2/modal/casa48.png",
       },
       {
         title: "casa de 57 m²",
         preco: "R$ 1.163,00",
         list: ["item 1", "item 2", "item 3"],
+        planta: "/dn2/CM04.png",
+        modal: "/dn2/modal/casa57.png",
       },
     ],
     casas_padrão: [
@@ -178,11 +184,15 @@ export const empreendimentos: any = {
         title: "casa de 52 m²",
         preco: "R$ 1.047,00",
         list: ["item 1", "item 2", "item 3"],
+        planta: "/dn2/CASA50.png",
+        modal: "/dn2/modal/casa52.png",
       },
       {
         title: "casa de 60 m²",
         preco: "R$ 1.238,00",
         list: ["item 1", "item 2", "item 3"],
+        planta: "/dn2/CASA60.png",
+        modal: "/dn2/modal/casa60.png",
       },
     ],
     customizada: [
