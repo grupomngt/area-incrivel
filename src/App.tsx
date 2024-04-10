@@ -40,9 +40,9 @@ function App() {
         facebook="https://www.facebook.com/area.incrivelrc"
         instagram="https://www.instagram.com/area.incrivel/"
       />
-      {/* <PorqueArea /> */}
+
       <Sobre />
-      {/* <Garantia /> */}
+      <Garantia />
       <GrupoMNGT />
       <Contato />
       <Footer />

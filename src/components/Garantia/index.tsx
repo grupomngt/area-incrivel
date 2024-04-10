@@ -19,7 +19,7 @@ export function Garantia() {
         <ContentGarantia>
           <LeftContent>
             <img
-              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492542/public/garantiaimg_qycxvm.jpg"
+              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1712773625/solidez_tnb6vp.jpg"
               alt=""
             />
           </LeftContent>
@@ -34,7 +34,9 @@ export function Garantia() {
                 investimento, seus sonhos e sua família.
               </p>
             </Text>
-            {/* <Button>Ver documento!</Button> */}
+            <Button href="/Solidez_Financeira.pdf" target="_blank">
+              Ver documento!
+            </Button>
           </RightContent>
         </ContentGarantia>
       </Content>

@@ -103,13 +103,14 @@ export const Text = styled.div`
   }
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
   height: fit-content;
   width: fit-content;
+  text-decoration: none;
   padding: 15px 75px;
   background-color: #7b7b7b;
   border: none;
