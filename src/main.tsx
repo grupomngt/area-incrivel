@@ -46,7 +46,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/qr1",
-    element: <Qr path="/dn1/apresentacaodn1.pdf" />,
+    element: <Qr path="/dn1/apresentacaodn1.pdf" name="Apresentação DN1" />,
   },
 ]);
 

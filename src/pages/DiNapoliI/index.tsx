@@ -26,7 +26,18 @@ import { SobreArea } from "../components/SobreArea";
 import { Helmet } from "react-helmet";
 import { GrupoMNGT } from "../../components/GrupoMNGT";
 import { Redes } from "../../components/Redes";
+
+import TagManager from "react-gtm-module";
+
+const tagManagerArgs = {
+  dataLayer: {
+    page: "Di Napoli I",
+  },
+  dataLayerName: "PageDataLayer",
+};
+
 export function DiNapoliI() {
+  TagManager.dataLayer(tagManagerArgs);
   const dataPhase = [
     {
       name: "Fundação",

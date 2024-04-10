@@ -29,6 +29,7 @@ export const Blur = styled.div`
   position: absolute;
   padding: inherit;
   top: 0;
+  filter: brightness(0.5);
 `;
 export const Content = styled.div`
   max-width: 1394px;
