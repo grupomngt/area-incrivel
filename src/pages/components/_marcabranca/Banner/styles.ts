@@ -49,7 +49,7 @@ export const LeftContent = styled.div`
 
   h1 {
     color: #fff;
-    font-size: 54px;
+    font-size: 44px;
     font-weight: 700;
   }
 
