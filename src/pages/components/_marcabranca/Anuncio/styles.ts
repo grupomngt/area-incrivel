@@ -112,7 +112,7 @@ export const Button = styled.button`
   height: fit-content;
   width: fit-content;
   padding: 15px 75px;
-  background-color: #7b7b7b;
+  background-color: #29a71a;
   border: none;
   border-radius: 10px;
   color: #fff;

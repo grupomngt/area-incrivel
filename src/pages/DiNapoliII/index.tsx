@@ -91,7 +91,7 @@ export function DiNapoliII() {
           linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20II"
         />
 
-        <Apresentacao
+        {/* <Apresentacao
           iframe={
             <iframe
               width="100%"
@@ -105,7 +105,7 @@ export function DiNapoliII() {
           }
           empreendimento={empreendimento}
           apresentacao="https://res.cloudinary.com/duv6mjghr/image/upload/v1712592778/dn2/Di_Napoli_II_1_pmql2g.png"
-        />
+        /> */}
         <Ofertas
           empreendimento="dinapoli2"
           background="https://res.cloudinary.com/duv6mjghr/image/upload/v1712586384/dn2/portariadn2_zldii3.jpg"

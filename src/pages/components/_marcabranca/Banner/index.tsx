@@ -1,6 +1,12 @@
 import { ReactNode } from "react";
 
-import { Container, Content, Number, Whatsapp } from "./styles";
+import {
+  Container,
+  Content,
+  LeftContent,
+  RightContent,
+  Whatsapp,
+} from "./styles";
 
 interface AnuncioProps {
   type?: string;
@@ -11,15 +17,18 @@ export function Banner({ type, number }: AnuncioProps) {
   return (
     <Container>
       <Content>
-        <h1>VENDE-SE {type}</h1>
-        <h2>EM CONDOMÍNIO</h2>
-        <h3>R$ {number} MIL FINANCIADO</h3>
-        <Number>
-          <Whatsapp href="">
-            <img src="whatsapp.svg" alt="" /> 19999999999
-          </Whatsapp>
+        <LeftContent>
+          <h1>VENDE-SE {type}</h1>
+          <h2>EM CONDOMÍNIO</h2>
           <span>DIRETO COM O PROPRIETÁRIO</span>
-        </Number>
+        </LeftContent>
+
+        <RightContent>
+          <h3>R$ {number} MIL FINANCIADO</h3>
+          <Whatsapp href="">
+            <img src="whatsapp.svg" alt="" /> (19) 99999-9999
+          </Whatsapp>
+        </RightContent>
       </Content>
     </Container>
   );

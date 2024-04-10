@@ -9,6 +9,7 @@ export const Container = styled.div`
   flex-flow: column;
   padding: 20px 0;
   background-color: red;
+  font-family: "Montserrat", sans-serif;
 `;
 
 export const Content = styled.div`
@@ -16,32 +17,16 @@ export const Content = styled.div`
   height: fit-content;
   width: 100%;
   display: flex;
-  flex-flow: column;
-  justify-content: center;
+
+  justify-content: space-between;
   align-items: center;
 
   gap: 10px;
 
-  h1 {
-    color: #fff;
-    font-size: 32px;
-  }
-
-  h2 {
-    background-color: yellow;
-    color: red;
-    padding: 0 10px;
-    font-size: 30px;
-  }
-
-  h3 {
-    font-weight: 300;
-    font-size: 30px;
-    color: #fff;
-  }
-
   @media (max-width: 1023px) {
     padding: 20px 0;
+    gap: 20px;
+    flex-flow: column;
   }
   @media (max-width: 1750px) {
     max-width: 965px;
@@ -54,13 +39,72 @@ export const Content = styled.div`
     align-items: center;
   }
 `;
-export const Number = styled.div`
+export const LeftContent = styled.div`
   display: flex;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
   gap: 25px;
+  width: 100%;
+
+  h1 {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+  }
+
+  h2 {
+    background-color: yellow;
+    color: red;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+  }
 
   span {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  @media (max-width: 767px) {
+    flex-flow: column;
+    gap: 15px;
+
+    h1 {
+      color: #fff;
+      font-size: 36px;
+      font-weight: 700;
+    }
+
+    h2 {
+      background-color: yellow;
+      color: red;
+      width: 100%;
+      padding: 0 10px;
+      font-size: 32px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    span {
+      text-align: center;
+    }
+  }
+`;
+export const RightContent = styled.div`
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 100%;
+
+  h3 {
+    font-weight: 300;
+    font-size: 28px;
     color: #fff;
   }
 
@@ -75,7 +119,7 @@ export const Whatsapp = styled.a`
   align-items: center;
   justify-content: center;
   gap: 10px;
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
   color: #fff;
   text-decoration: none;
