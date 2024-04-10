@@ -13,7 +13,7 @@ import { Explore } from "../components/3D";
 import { Numeros } from "../components/Numeros";
 import { Ofertas } from "../components/Ofertas";
 import { PontosDeInteresse } from "../components/PontosDeInteresse";
-import { Redes } from "../components/Redes";
+import { Redes } from "../../components/Redes";
 import { Depoimentos } from "../components/Depoimentos";
 import { Imagens } from "../components/Imagens";
 import { Garantia } from "../components/Garantia";
@@ -132,10 +132,8 @@ export function DiNapoliII() {
         <SobreArea />
 
         <Redes
-          instagram="https://www.instagram.com/dinapoli_residencial/"
-          facebook="https://www.facebook.com/dinapoli2.residencial"
-          mockupImgInsta="https://res.cloudinary.com/duv6mjghr/image/upload/v1712595391/dn2/dn2mockupinsta_a2mj66.png"
-          mockupImgFace="https://res.cloudinary.com/duv6mjghr/image/upload/v1712595392/dn2/dn2mockupface_bi0jat.png"
+          facebook="https://www.facebook.com/area.incrivelrc"
+          instagram="https://www.instagram.com/area.incrivel/"
         />
         <GrupoMNGT />
         <Footer />

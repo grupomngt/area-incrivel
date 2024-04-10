@@ -55,5 +55,9 @@ export const itensVejaMais: any = {
       title: "Sustentável",
       icon: <Sun size={90} />,
     },
+    {
+      title: "Exclusividade e Conforto",
+      icon: <Sparkles size={90} />,
+    },
   ],
 };

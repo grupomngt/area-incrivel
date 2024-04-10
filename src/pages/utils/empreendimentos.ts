@@ -155,6 +155,11 @@ export const empreendimentos: any = {
         preco: "R$ 617,00",
         list: ["item 1", "item 2", "item 3"],
       },
+      {
+        title: "lotes de 120 m²",
+        preco: "R$ 691,00",
+        list: ["item 1", "item 2", "item 3"],
+      },
     ],
     casas_modulares: [
       {
@@ -197,7 +202,7 @@ export const empreendimentos: any = {
     ],
     customizada: [
       {
-        title: "Casa Customizada",
+        title: "Customizada",
         preco: "R$ 2.500,00 o m²",
         list: ["item 1", "item 2", "item 3"],
       },
