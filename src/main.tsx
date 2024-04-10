@@ -45,9 +45,61 @@ const router = createBrowserRouter([
     element: <GoogleLote />,
   },
   {
-    path: "/qr1",
-    element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
+    path: "/dn1folder-qr1",
+    element: <DiNapoliI />,
   },
+  // {
+  //   path: "/dn1folder-qr2",
+  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
+  // },
+  {
+    path: "/dn2folder-qr1",
+    element: <DiNapoliII />,
+  },
+  // {
+  //   path: "/dn2folder-qr1",
+  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
+  // },
+  // {
+  //   path: "/ravenafolder-qr1",
+  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
+  // },
+  // {
+  //   path: "/ravenafolder-qr2",
+  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
+  // },
+  // {
+  //   path: "/sienafolder-qr1",
+  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
+  // },
+  // {
+  //   path: "/sienafolder-qr2",
+  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
+  // },
+  // {
+  //   path: "/md39",
+  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
+  // },
+  // {
+  //   path: "/md48",
+  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
+  // },
+  // {
+  //   path: "/md48s",
+  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
+  // },
+  // {
+  //   path: "/md57",
+  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
+  // },
+  // {
+  //   path: "/c52",
+  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
+  // },
+  // {
+  //   path: "/c60",
+  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
+  // },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
