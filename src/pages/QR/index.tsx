@@ -1,12 +1,27 @@
 import { useEffect, useRef } from "react";
+import TagManager from "react-gtm-module";
 import { Helmet } from "react-helmet";
-
+import ReactPixel from "react-facebook-pixel";
 interface QrProps {
   path: string;
   name: string;
 }
 
+const tagManagerArgs = {
+  gtmId: "GTM-KXPBB883",
+  dataLayer: {
+    page: "QR CODE",
+  },
+  dataLayerName: "PageDataLayer",
+};
+
 export function Qr({ path, name }: QrProps) {
+  TagManager.dataLayer(tagManagerArgs);
+  useEffect(() => {
+    ReactPixel.init("1528293361047131");
+
+    TagManager.initialize(tagManagerArgs);
+  }, []);
   const ref = useRef<any>();
   useEffect(() => {
     if (ref.current) {

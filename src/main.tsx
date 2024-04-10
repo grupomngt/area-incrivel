@@ -46,7 +46,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/qr1",
-    element: <Qr path="/dn1/apresentacaodn1.pdf" name="Apresentação DN1" />,
+    element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
   },
 ]);
 
