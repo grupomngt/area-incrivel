@@ -1,14 +1,29 @@
+import TagManager from "react-gtm-module";
 import { Anuncio } from "../components/_marcabranca/Anuncio";
 import { Banner } from "../components/_marcabranca/Banner";
 import { Container } from "./styles";
-
+import ReactPixel from "react-facebook-pixel";
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
+const tagManagerArgs = {
+  gtmId: "GTM-KXPBB883",
+  dataLayer: {
+    page: "Casa - Venda",
+  },
+  dataLayerName: "PageDataLayer",
+};
 export function GoogleCasa() {
+  TagManager.dataLayer(tagManagerArgs);
+  useEffect(() => {
+    ReactPixel.init("1528293361047131");
+
+    TagManager.initialize(tagManagerArgs);
+  }, []);
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>CASA - Venda</title>
+        <title>Casa - Venda</title>
         <link rel="canonical" href="http://mysite.com/example" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

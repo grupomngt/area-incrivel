@@ -1,9 +1,25 @@
+import { useEffect } from "react";
+import TagManager from "react-gtm-module";
 import { Anuncio } from "../components/_marcabranca/Anuncio";
 import { Banner } from "../components/_marcabranca/Banner";
 import { Container } from "./styles";
-
+import ReactPixel from "react-facebook-pixel";
 import { Helmet } from "react-helmet";
+
+const tagManagerArgs = {
+  gtmId: "GTM-KXPBB883",
+  dataLayer: {
+    page: "Lote - Venda",
+  },
+  dataLayerName: "PageDataLayer",
+};
 export function GoogleLote() {
+  TagManager.dataLayer(tagManagerArgs);
+  useEffect(() => {
+    ReactPixel.init("1528293361047131");
+
+    TagManager.initialize(tagManagerArgs);
+  }, []);
   return (
     <>
       <Helmet>
