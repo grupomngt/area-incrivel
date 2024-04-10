@@ -16,6 +16,7 @@ import { WhatsappButton } from "./components/elements/WhatsappButton/index.tsx";
 import "react-toastify/dist/ReactToastify.css";
 import { GoogleLote } from "./pages/GoogleLotes/index.tsx";
 import { Qr } from "./pages/QR/index.tsx";
+import { GoogleCasa } from "./pages/GoogleCasa/index.tsx";
 
 function WhatsappRedirect() {
   window.location.href =
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
   {
     path: "/google-lote",
     element: <GoogleLote />,
+  },
+  {
+    path: "/google-casa",
+    element: <GoogleCasa />,
   },
   {
     path: "/dn1folder-qr1",

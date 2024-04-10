@@ -12,23 +12,26 @@ import {
 
 interface AnuncioProps {
   imgUrl?: string;
+  type?: string;
+  area?: string;
+  price?: string;
 }
 
-export function Anuncio({ imgUrl }: AnuncioProps) {
+export function Anuncio({ imgUrl, type, area, price }: AnuncioProps) {
   return (
     <Container>
       <Content>
         <Image src={imgUrl} />
         <Information>
           <Text>
-            <h1>Vende-se Terreno em condomínio fechado em Rio Claro - SP</h1>
+            <h1>Vende-se {type} em condomínio fechado em Rio Claro - SP</h1>
             <Topicos>
-              <span>- Tamanho: 90 m² de área total</span>
+              <span>- Tamanho: {area}</span>
               <span>- Ótima localização, com vista para a serra</span>
               <span>- Bairro próximo a vários pontos comerciais</span>
             </Topicos>
             <h2>
-              Valor: <span>R$ 99.000</span>
+              Valor: <span>R$ {price}</span>
             </h2>
           </Text>
           <Button>Comprar</Button>

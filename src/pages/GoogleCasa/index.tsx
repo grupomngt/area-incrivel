@@ -3,12 +3,12 @@ import { Banner } from "../components/_marcabranca/Banner";
 import { Container } from "./styles";
 
 import { Helmet } from "react-helmet";
-export function GoogleLote() {
+export function GoogleCasa() {
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Lote - Venda</title>
+        <title>CASA - Venda</title>
         <link rel="canonical" href="http://mysite.com/example" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -22,12 +22,12 @@ export function GoogleLote() {
         />
       </Helmet>
       <Container>
-        <Banner number="99" type="TERRENO" whatsapp="(19) 3097-0234" />
+        <Banner number="99" type="CASA" whatsapp="(19) 3097-0312" />
         <Anuncio
-          imgUrl="https://res.cloudinary.com/duv6mjghr/image/upload/v1712778063/terreno_cq4ppv.jpg"
-          price="99.000,00"
-          area="90 m² de área total"
-          type="Terreno"
+          imgUrl="https://res.cloudinary.com/duv6mjghr/image/upload/v1712778021/casavenda_i0d9gb.png"
+          price="199.000,00"
+          area="39 m² de área contruída"
+          type="Casa"
         />
       </Container>
     </>

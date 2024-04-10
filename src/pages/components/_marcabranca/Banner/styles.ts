@@ -75,7 +75,7 @@ export const LeftContent = styled.div`
 
     h1 {
       color: #fff;
-      font-size: 36px;
+      font-size: 32px;
       font-weight: 700;
     }
 
