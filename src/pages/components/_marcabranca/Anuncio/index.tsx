@@ -15,9 +15,10 @@ interface AnuncioProps {
   type?: string;
   area?: string;
   price?: string;
+  link?: string;
 }
 
-export function Anuncio({ imgUrl, type, area, price }: AnuncioProps) {
+export function Anuncio({ imgUrl, type, area, price, link }: AnuncioProps) {
   return (
     <Container>
       <Content>
@@ -34,7 +35,9 @@ export function Anuncio({ imgUrl, type, area, price }: AnuncioProps) {
               Valor: <span>R$ {price}</span>
             </h2>
           </Text>
-          <Button>Comprar</Button>
+          <Button href={link} target="_blank">
+            Comprar
+          </Button>
         </Information>
       </Content>
     </Container>

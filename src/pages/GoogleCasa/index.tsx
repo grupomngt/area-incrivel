@@ -37,12 +37,18 @@ export function GoogleCasa() {
         />
       </Helmet>
       <Container>
-        <Banner number="99" type="CASA" whatsapp="(19) 3097-0312" />
+        <Banner
+          number="99"
+          type="CASA"
+          whatsapp="(19) 3097-0312"
+          link="https://wa.me/551930970312?text=Tenho+interesse+na+casa+de+39+m²"
+        />
         <Anuncio
           imgUrl="https://res.cloudinary.com/duv6mjghr/image/upload/v1712778021/casavenda_i0d9gb.png"
           price="199.000,00"
           area="39 m² de área contruída"
-          type="Casa"
+          type="casa"
+          link="https://wa.me/551930970312?text=Tenho+interesse+na+casa+de+39+m²"
         />
       </Container>
     </>

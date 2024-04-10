@@ -104,8 +104,9 @@ export const Text = styled.div`
     }
   }
 `;
-export const Button = styled.button`
+export const Button = styled.a`
   display: flex;
+  text-decoration: none;
   align-items: center;
   text-align: center;
   justify-content: center;

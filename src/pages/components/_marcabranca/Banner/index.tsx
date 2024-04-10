@@ -12,9 +12,10 @@ interface AnuncioProps {
   type?: string;
   number?: string;
   whatsapp?: string;
+  link?: string;
 }
 
-export function Banner({ type, number, whatsapp }: AnuncioProps) {
+export function Banner({ type, number, whatsapp, link }: AnuncioProps) {
   return (
     <Container>
       <Content>
@@ -26,7 +27,7 @@ export function Banner({ type, number, whatsapp }: AnuncioProps) {
 
         <RightContent>
           <h3>R$ {number} MIL FINANCIADO</h3>
-          <Whatsapp href="">
+          <Whatsapp href={link} target="_blank">
             <img src="whatsapp.svg" alt="" /> {whatsapp}
           </Whatsapp>
         </RightContent>
