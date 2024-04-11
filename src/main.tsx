@@ -46,11 +46,11 @@ const router = createBrowserRouter([
     element: <WhatsappRedirect />,
   },
   {
-    path: "/google-lote",
+    path: "/venda-terreno",
     element: <GoogleLote />,
   },
   {
-    path: "/google-casa",
+    path: "/venda-casa",
     element: <GoogleCasa />,
   },
   {

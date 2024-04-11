@@ -47,7 +47,6 @@ export function GoogleLote() {
         <Anuncio
           imgUrl="https://res.cloudinary.com/duv6mjghr/image/upload/v1712778063/terreno_cq4ppv.jpg"
           price="99.000,00"
-          area="90 m² de área total"
           type="terreno"
           link="https://wa.me/551930970234?text=Tenho+interesse+no+terreno+de+99+m²"
         />

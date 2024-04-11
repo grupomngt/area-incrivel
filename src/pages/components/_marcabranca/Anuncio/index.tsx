@@ -13,12 +13,12 @@ import {
 interface AnuncioProps {
   imgUrl?: string;
   type?: string;
-  area?: string;
+
   price?: string;
   link?: string;
 }
 
-export function Anuncio({ imgUrl, type, area, price, link }: AnuncioProps) {
+export function Anuncio({ imgUrl, type, price, link }: AnuncioProps) {
   return (
     <Container>
       <Content>
@@ -27,7 +27,6 @@ export function Anuncio({ imgUrl, type, area, price, link }: AnuncioProps) {
           <Text>
             <h1>Vende-se {type} em condomínio fechado em Rio Claro - SP</h1>
             <Topicos>
-              <span>- Tamanho: {area}</span>
               <span>- Ótima localização, com vista para a serra</span>
               <span>- Bairro próximo a vários pontos comerciais</span>
             </Topicos>
@@ -36,7 +35,7 @@ export function Anuncio({ imgUrl, type, area, price, link }: AnuncioProps) {
             </h2>
           </Text>
           <Button href={link} target="_blank">
-            Comprar
+            Falar com proprietário
           </Button>
         </Information>
       </Content>

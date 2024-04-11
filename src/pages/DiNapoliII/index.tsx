@@ -25,6 +25,7 @@ import { Helmet } from "react-helmet";
 import { GrupoMNGT } from "../../components/GrupoMNGT";
 import ReactPixel from "react-facebook-pixel";
 import TagManager from "react-gtm-module";
+import { Modular } from "../components/Modular";
 const tagManagerArgs = {
   gtmId: "GTM-KXPBB883",
   dataLayer: {
@@ -121,11 +122,12 @@ export function DiNapoliII() {
           empreendimento={empreendimento}
           apresentacao="https://res.cloudinary.com/duv6mjghr/image/upload/v1712592778/dn2/Di_Napoli_II_1_pmql2g.png"
         /> */}
+        {/* <Modular /> */}
         <Ofertas
           empreendimento="dinapoli2"
           background="https://res.cloudinary.com/duv6mjghr/image/upload/v1712586384/dn2/portariadn2_zldii3.jpg"
         />
-        {/* <ExplicacaoCasas/> */}
+
         <Empresas />
         <Estagio
           percentageTotal={Number(mediaPorcentagem.toFixed(0))}
