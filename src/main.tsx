@@ -165,6 +165,33 @@ const router = createBrowserRouter([
       />
     ),
   },
+  {
+    path: "/depoimento-di-napoli",
+    element: (
+      <Qr
+        path="https://www.youtube.com/playlist?list=PLrhUN9V8vTNX99UH1dXz1fBt4OkFzsuqB"
+        name="Depoimento - Di Napoli"
+      />
+    ),
+  },
+  {
+    path: "/depoimento-ravena",
+    element: (
+      <Qr
+        path="https://www.youtube.com/playlist?list=PLrhUN9V8vTNXEP23BNdmuZTdjMYE_cMzm"
+        name="Depoimento - Ravena"
+      />
+    ),
+  },
+  {
+    path: "/depoimento-siena",
+    element: (
+      <Qr
+        path="https://www.youtube.com/playlist?list=PLrhUN9V8vTNWFA6E7GihOmOcVeE87cf8W"
+        name="Depoimento - Siena"
+      />
+    ),
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
