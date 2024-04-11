@@ -34,7 +34,7 @@ export function Garantia() {
                 investimento, seus sonhos e sua família.
               </p>
             </Text>
-            <Button href="/Solidez_Financeira.pdf" target="_blank">
+            <Button href="/docs/Garantia.pdf" target="_blank">
               Ver documento!
             </Button>
           </RightContent>
