@@ -96,7 +96,7 @@ export function DiNapoliII() {
           value="617,00"
           facebook="https://www.facebook.com/area.incrivelrc"
           instagram="https://www.instagram.com/dinapoli_2_residencial/"
-          whatsapp=""
+          whatsapp="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20II"
           buttonLink="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20II"
         />
         <Numeros empreendimentoItens="dinapoli2" />
