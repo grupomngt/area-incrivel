@@ -17,6 +17,8 @@ import "react-toastify/dist/ReactToastify.css";
 import { GoogleLote } from "./pages/GoogleLotes/index.tsx";
 import { Qr } from "./pages/QR/index.tsx";
 import { GoogleCasa } from "./pages/GoogleCasa/index.tsx";
+import { Ravena } from "./pages/Ravena/index.tsx";
+import { Siena } from "./pages/Siena/index.tsx";
 
 function WhatsappRedirect() {
   window.location.href =
@@ -39,6 +41,18 @@ const router = createBrowserRouter([
   },
   {
     path: "/di-napoli-ii",
+    element: <DiNapoliII />,
+  },
+  {
+    path: "/ravena",
+    element: <Ravena />,
+  },
+  {
+    path: "/siena",
+    element: <Siena />,
+  },
+  {
+    path: "/siena",
     element: <DiNapoliII />,
   },
   {
@@ -85,30 +99,60 @@ const router = createBrowserRouter([
   //   path: "/sienafolder-qr2",
   //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
   // },
-  // {
-  //   path: "/md39",
-  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
-  // },
-  // {
-  //   path: "/md48",
-  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
-  // },
-  // {
-  //   path: "/md48s",
-  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
-  // },
-  // {
-  //   path: "/md57",
-  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
-  // },
-  // {
-  //   path: "/c52",
-  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
-  // },
-  // {
-  //   path: "/c60",
-  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
-  // },
+  {
+    path: "/md39",
+    element: (
+      <Qr
+        path="/docs/Memorial_Descritivo_Casa_Modular-39m2.pdf"
+        name="Memorial Descritivo - Casa Modular 39 m²"
+      />
+    ),
+  },
+  {
+    path: "/md48",
+    element: (
+      <Qr
+        path="/docs/Memorial_Descritivo_Casa_Modular-48m2.pdf"
+        name="Memorial Descritivo - Casa Modular 48 m²"
+      />
+    ),
+  },
+  {
+    path: "/md48s",
+    element: (
+      <Qr
+        path="/docs/Memorial_Descritivo_Casa_Modular-48m2-suite.pdf"
+        name="Memorial Descritivo - Casa Modular 48 m² - Suíte"
+      />
+    ),
+  },
+  {
+    path: "/md57",
+    element: (
+      <Qr
+        path="/docs/Memorial_Descritivo_Casa_Modular-57m2.pdf"
+        name="Memorial Descritivo - Casa Modular 57 m²"
+      />
+    ),
+  },
+  {
+    path: "/c52",
+    element: (
+      <Qr
+        path="/docs/Memorial_Descritivo_Casa_Modular-39m2.pdf"
+        name="Memorial Descritivo - Casa Modular 39 m2"
+      />
+    ),
+  },
+  {
+    path: "/c60",
+    element: (
+      <Qr
+        path="/docs/Memorial_Descritivo_Casa_Modular-39m2.pdf"
+        name="Memorial Descritivo - Casa Modular 39 m2"
+      />
+    ),
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
