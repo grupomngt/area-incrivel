@@ -94,21 +94,21 @@ const router = createBrowserRouter([
     ),
   },
   {
-    path: "/ravenafolder-qr1",
+    path: "/rvfolder-qr1",
     element: <Navigate to="/ravena" replace />,
   },
   {
-    path: "/ravenafolder-qr2",
+    path: "/rvfolder-qr2",
     element: (
       <Qr path="/docs/MAPEAMENTO-RAVENA.pdf" name="Mapeamento - Ravena" />
     ),
   },
   {
-    path: "/sienafolder-qr1",
+    path: "/snfolder-qr1",
     element: <Navigate to="/siena" replace />,
   },
   {
-    path: "/sienafolder-qr2",
+    path: "/snfolder-qr2",
     element: <Qr path="/docs/MAPEAMENTO-SIENA.pdf" name="Mapeamento - Siena" />,
   },
   {
