@@ -69,36 +69,48 @@ const router = createBrowserRouter([
   },
   {
     path: "/dn1folder-qr1",
-    element: <DiNapoliI />,
+    element: <Navigate to="/di-napoli-i" replace />,
   },
-  // {
-  //   path: "/dn1folder-qr2",
-  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
-  // },
+  {
+    path: "/dn1folder-qr2",
+    element: (
+      <Qr
+        path="/docs/MAPEAMENTO-DINAPOLII.pdf"
+        name="Mapeamento - Di Napoli I"
+      />
+    ),
+  },
   {
     path: "/dn2folder-qr1",
-    element: <DiNapoliII />,
+    element: <Navigate to="/di-napoli-ii" replace />,
   },
-  // {
-  //   path: "/dn2folder-qr1",
-  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
-  // },
-  // {
-  //   path: "/ravenafolder-qr1",
-  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
-  // },
-  // {
-  //   path: "/ravenafolder-qr2",
-  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
-  // },
-  // {
-  //   path: "/sienafolder-qr1",
-  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
-  // },
-  // {
-  //   path: "/sienafolder-qr2",
-  //   element: <Qr path="/dn1/modal/TIPOB.jpg" name="DN1 | Planta TIPO B" />,
-  // },
+  {
+    path: "/dn2folder-qr1",
+    element: (
+      <Qr
+        path="/docs/MAPEAMENTO-DINAPOLII.pdf"
+        name="Mapeamento - Di Napoli II"
+      />
+    ),
+  },
+  {
+    path: "/ravenafolder-qr1",
+    element: <Navigate to="/ravena" replace />,
+  },
+  {
+    path: "/ravenafolder-qr2",
+    element: (
+      <Qr path="/docs/MAPEAMENTO-RAVENA.pdf" name="Mapeamento - Ravena" />
+    ),
+  },
+  {
+    path: "/sienafolder-qr1",
+    element: <Navigate to="/siena" replace />,
+  },
+  {
+    path: "/sienafolder-qr2",
+    element: <Qr path="/docs/MAPEAMENTO-SIENA.pdf" name="Mapeamento - Siena" />,
+  },
   {
     path: "/md39",
     element: (
