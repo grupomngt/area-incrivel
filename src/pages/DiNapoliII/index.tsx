@@ -83,7 +83,7 @@ export function DiNapoliII() {
     <ThemeProvider page="dinapoli2">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>AI | Residencial Di Napoli II</title>
+        <title>Di Napoli II</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <Container>
