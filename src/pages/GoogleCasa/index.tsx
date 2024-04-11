@@ -41,13 +41,13 @@ export function GoogleCasa() {
           number="199"
           type="CASA"
           whatsapp="(19) 3097-0312"
-          link="https://wa.me/551930970312?text=Tenho+interesse+na+casa+de+39+m²"
+          link="https://wa.me/551930970312?text=Tenho+interesse+na+casa"
         />
         <Anuncio
           imgUrl="https://res.cloudinary.com/duv6mjghr/image/upload/v1712778021/casavenda_i0d9gb.png"
           price="199.000,00"
           type="casa"
-          link="https://wa.me/551930970312?text=Tenho+interesse+na+casa+de+39+m²"
+          link="https://wa.me/551930970312?text=Tenho+interesse+na+casa"
         />
       </Container>
     </>
