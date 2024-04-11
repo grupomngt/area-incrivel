@@ -80,7 +80,7 @@ export function Ravena() {
 
   const empreendimento = "Di Napoli II";
   return (
-    <ThemeProvider page="dinapoli2">
+    <ThemeProvider page="ravena">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Ravena</title>

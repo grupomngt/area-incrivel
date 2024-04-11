@@ -80,7 +80,7 @@ export function Siena() {
 
   const empreendimento = "Di Napoli II";
   return (
-    <ThemeProvider page="dinapoli2">
+    <ThemeProvider page="siena">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Siena</title>

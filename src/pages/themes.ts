@@ -12,5 +12,13 @@ export const pageThemes = {
     primaryColor: "#FFCB57",
     secondaryColor: "#9e3c83",
   },
+  ravena: {
+    primaryColor: "#009933",
+    secondaryColor: "#1294b2",
+  },
+  siena: {
+    primaryColor: "#c78a34",
+    secondaryColor: "#dab968",
+  },
   // adicione os temas para as outras páginas aqui...
 };
