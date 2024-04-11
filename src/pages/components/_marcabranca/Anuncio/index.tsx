@@ -35,7 +35,7 @@ export function Anuncio({ imgUrl, type, price, link }: AnuncioProps) {
             </h2>
           </Text>
           <Button href={link} target="_blank">
-            Falar com proprietário
+            Falar com o proprietário
           </Button>
         </Information>
       </Content>
