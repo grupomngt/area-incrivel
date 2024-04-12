@@ -140,6 +140,7 @@ export function DiNapoliII() {
         <PontosDeInteresse
           empreendimento="Di Napoli II"
           empreendimentoPonto="dinapoli2"
+          linkWhatsapp="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%Di%20Napoli%20II"
         />
         <VejaMais
           empreendimento={empreendimento}

@@ -21,10 +21,12 @@ import { pontos } from "../../utils/pontos";
 interface PontosDeInteresseProps {
   empreendimento?: string;
   empreendimentoPonto?: any;
+  linkWhatsapp: string;
 }
 
 export function PontosDeInteresse({
   empreendimentoPonto,
+  linkWhatsapp,
 }: PontosDeInteresseProps) {
   const theme = useTheme();
   return (
@@ -73,10 +75,7 @@ export function PontosDeInteresse({
             <p>*Pesquisa feita em um raio de aproximadamente 4 km.</p>
           </Itens>
         </ContentPontos>
-        <a
-          href="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20I"
-          target="_blank"
-        >
+        <a href={linkWhatsapp} target="_blank">
           <Button theme={theme}>Quero conhecer mais sobre o bairro</Button>
         </a>
       </Content>

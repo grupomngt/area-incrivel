@@ -148,6 +148,7 @@ export function Ravena() {
         <PontosDeInteresse
           empreendimento="Ravena"
           empreendimentoPonto="ravena"
+          linkWhatsapp="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Ravena"
         />
         <VejaMais
           empreendimento={empreendimento}

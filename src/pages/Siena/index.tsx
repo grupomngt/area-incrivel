@@ -144,7 +144,11 @@ export function Siena() {
 
         <Depoimentos empreendimento="siena" />
         <Imagens empreendimento="siena" />
-        <PontosDeInteresse empreendimento="Siena" empreendimentoPonto="siena" />
+        <PontosDeInteresse
+          empreendimento="Siena"
+          empreendimentoPonto="siena"
+          linkWhatsapp="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Siena"
+        />
         <VejaMais empreendimento={empreendimento} empreendimentoItens="siena" />
 
         <SobreArea />
