@@ -52,4 +52,57 @@ export const depoimentos: any = {
       ),
     },
   ],
+  siena: [
+    {
+      text: '"Eu acho o bairro muito bom. Moro aqui há 40 anos e graças a Deus, gosto muito. A segurança aqui é muito boa, nunca tive problema. Aqui também tem uma escolinha perto e tudo mais é ótimo! O convívio é bom com as pessoas, todos bem-educados."',
+      name: "Francisco Valderi da Silva",
+      sub: "Comerciante do Santa Eliza",
+      img: "",
+      iframe: (
+        <iframe
+          width="100%"
+          src="https://www.youtube.com/embed/kMf98-8hf1w?list=PLrhUN9V8vTNWFA6E7GihOmOcVeE87cf8W"
+          title="A segurança aqui é muito boa, nunca tive problema, diz Francisco, morador há 40 anos."
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      ),
+    },
+    {
+      text: '"O bairro é top, maravilhoso, eu moro há 25 anos. Temos uma rua de comércio bem movimentada aqui no bairro. A segurança é nota dez. Aqui não tem erro, não tem problemas, nunca tive problema com assalto, bandido, nada."',
+      name: "Lenon",
+      sub: "Comerciante",
+      img: "",
+      iframe: (
+        <iframe
+          width="100%"
+          src="https://www.youtube.com/embed/Z5OvY7B85Fo"
+          title="Temos uma rua de comércio bem movimentada aqui no bairro, diz Lenon, morador há 25 anos."
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      ),
+    },
+    {
+      text: '"Aqui a gente pode ficar com a porta aberta a hora que quiser, não tem problema. É muito bom, muito gostoso. Há 20 anos que a gente mora aqui, é uma delícia morar aqui."',
+      name: "Sebastiana Maria de Souza Santos",
+      sub: "Moradora há 20 anos",
+      img: "",
+      iframe: (
+        <iframe
+          width="100%"
+          src="https://www.youtube.com/embed/_DyS5c5A5Rk?list=PLrhUN9V8vTNWFA6E7GihOmOcVeE87cf8W"
+          title="Há 20 anos que a gente mora aqui, é uma delícia morar no Santa Eliza, diz Sebastiana."
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      ),
+    },
+  ],
 };

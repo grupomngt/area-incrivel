@@ -29,7 +29,7 @@ import { Modular } from "../components/Modular";
 const tagManagerArgs = {
   gtmId: "GTM-KXPBB883",
   dataLayer: {
-    page: "Di Napoli II",
+    page: "Siena",
   },
   dataLayerName: "PageDataLayer",
 };
@@ -42,43 +42,50 @@ export function Siena() {
   }, []);
   const dataPhase = [
     {
-      name: "Fundação",
-      value: 100,
-    },
-
-    {
-      name: "Passagem de Elétrica",
-      value: 25,
-    },
-    {
-      name: "Levantamento de Placas Lightwall",
-      value: 90,
-    },
-    {
-      name: "Pintura e Acabamentos",
-      value: 25,
-    },
-    {
-      name: "Esquadrias e Marmoaria",
+      name: "Rede de Abastecimento de Água",
       value: 0,
     },
 
     {
-      name: "Pisos e Azulejos",
-      value: 25,
+      name: "Rede de Captação de Água Pluvial",
+      value: 0,
     },
     {
-      name: "Portas e Janelas",
+      name: "Rede de Captação de Esgoto",
+      value: 0,
+    },
+    {
+      name: "Pavimentação",
+      value: 0,
+    },
+    {
+      name: "Contrução da Lixeira",
+      value: 0,
+    },
+
+    {
+      name: "Construção do Playgorund",
+      value: 0,
+    },
+    {
+      name: "Construção da Portaria",
+      value: 0,
+    },
+    {
+      name: "Construção do Salão de Festas",
+      value: 0,
+    },
+    {
+      name: "Construção da Piscina e Vestiário",
       value: 0,
     },
   ];
-
   const totalValue = dataPhase.reduce((acc, curr) => acc + curr.value, 0);
 
   // Calculando a média como uma porcentagem
   const mediaPorcentagem = totalValue / dataPhase.length;
 
-  const empreendimento = "Di Napoli II";
+  const empreendimento = "Siena";
   return (
     <ThemeProvider page="siena">
       <Helmet>
@@ -90,7 +97,7 @@ export function Siena() {
         <Header />
         <Hero
           category="lançamento"
-          video="https://res.cloudinary.com/duv6mjghr/video/upload/v1712586384/dn2/dinapoli2background_topkaf.mp4"
+          video="https://res.cloudinary.com/duv6mjghr/video/upload/v1712927462/siena/Siena_OK_cejzoz.mp4"
           subname="Condomínio Residencial"
           name={empreendimento}
           description="Lotes | Casas Modulares | Casas incríveis"
@@ -100,10 +107,10 @@ export function Siena() {
           whatsapp="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20II"
           buttonLink="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20II"
         />
-        <Numeros empreendimentoItens="dinapoli2" />
+        <Numeros empreendimentoItens="siena" />
         <Sobre
           logoEmpreendimento="https://res.cloudinary.com/duv6mjghr/image/upload/v1712586382/dn2/logodn2_xi3ie4.png"
-          about="O lugar do seu sonho é o Condomínio Di Napoli II, que fica num bairro encantador, o Recanto Paraíso. São exclusivos 36 lotes de 105 m² a 120 m², com vista encantadora para a Serra do Itaqueri. Sua casa pode ser modular ou ter uma planta incrível bem charmosa, humanizada e tecnológica. O Di Napoli II é o lugar para ser e pertencer, com possibilidade de geração de energia solar limpa, automação residencial e qualidade de vida excepcional."
+          about="O condomínio Siena é um empreendimento da Área Incrível, localizado no bairro Santa Eliza, um dos bairros que mais cresce em Rio Claro por sua localização estratégica, investimos em urbanização e valorização imobiliária. Nesse condomínio, a Área Incrível disponibiliza 99 unidades, que podem ser lotes ou casas de acordo com a escolha do comprador."
           linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20II"
         />
 
@@ -125,7 +132,7 @@ export function Siena() {
         {/* <Modular /> */}
         <Ofertas
           empreendimento="dinapoli2"
-          background="https://res.cloudinary.com/duv6mjghr/image/upload/v1712586384/dn2/portariadn2_zldii3.jpg"
+          background="https://res.cloudinary.com/duv6mjghr/image/upload/v1712925515/siena/projeto/00_1_-_Photo_ojusox.jpg"
         />
 
         <Empresas />
@@ -135,16 +142,10 @@ export function Siena() {
         />
         <Garantia />
 
-        <Depoimentos empreendimento="dinapoli1" />
-        <Imagens empreendimento="dinapoli2" />
-        <PontosDeInteresse
-          empreendimento="Di Napoli II"
-          empreendimentoPonto="dinapoli2"
-        />
-        <VejaMais
-          empreendimento={empreendimento}
-          empreendimentoItens="dinapoli2"
-        />
+        <Depoimentos empreendimento="siena" />
+        <Imagens empreendimento="siena" />
+        <PontosDeInteresse empreendimento="Siena" empreendimentoPonto="siena" />
+        <VejaMais empreendimento={empreendimento} empreendimentoItens="siena" />
 
         <SobreArea />
 

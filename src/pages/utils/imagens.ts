@@ -42,4 +42,40 @@ export const imagens: any = {
       "https://res.cloudinary.com/duv6mjghr/image/upload/v1712769394/dn2/imagens/2024-02-05-13-22-07-739_nger8i.png",
     ],
   },
+  ravena: {
+    projeto: [
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712924156/ravena/projeto/02_10_-_Foto_ksft82.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712924131/ravena/projeto/01_20_-_Foto_r9xsph.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712924012/ravena/projeto/02_1_-_Photo_cwgsqq.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712924006/ravena/projeto/02_6_-_Foto_z048kk.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712924131/ravena/projeto/01_20_-_Foto_r9xsph.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712923999/ravena/projeto/01_17_-_Foto_j84bnk.jpg",
+    ],
+
+    obras: [
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863469/ravena/obras/Ravena_II_3_gnslsc.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863467/ravena/obras/Ravena_II_2_ourkmv.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863466/ravena/obras/Ravena_II_1_p0ixnl.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863419/ravena/obras/Ravena_I_4_u8qzde.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863418/ravena/obras/Ravena_I_3_uwcbq8.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863416/ravena/obras/Ravena_I_1_b69rbx.jpg",
+    ],
+  },
+  siena: {
+    projeto: [
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712925515/siena/projeto/00_1_-_Photo_ojusox.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712925519/siena/projeto/00_11_-_Foto_qafwcl.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712925545/siena/projeto/011_14_-_Foto_d2ikjd.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712925524/siena/projeto/001_9_-_Foto_pwe8d6.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712925538/siena/projeto/001_5_-_Foto_kquxlc.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712925550/siena/projeto/001_8_-_Foto_szenv4.jpg",
+    ],
+
+    obras: [
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863348/siena/obras/Siena_2_cqlmiu.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863348/siena/obras/Siena_3_rdwfc7.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863348/siena/obras/Siena_4_l27lls.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863348/siena/obras/Siena_1_qlk8rz.jpg",
+    ],
+  },
 };

@@ -22,4 +22,37 @@ export const pontos: any = {
       { estabelecimento: "Padaria", qtd: 14, prox: "700 m" },
     ],
   },
+  ravena: {
+    loc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5069.019890654238!2d-47.54228850615482!3d-22.377501331831215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7db16bb7c819b%3A0x1e35c45619f82ef9!2sCondom%C3%ADnio%20Residencial%20Ravena%20I!5e0!3m2!1spt-BR!2sbr!4v1712922200586!5m2!1spt-BR!2sbr",
+    list: [
+      { estabelecimento: "Escola/Creche", qtd: 20, prox: "750 m" },
+      { estabelecimento: "Supermercado", qtd: 13, prox: "800 m" },
+      { estabelecimento: "Padaria", qtd: 18, prox: "850 m" },
+      { estabelecimento: "Rotisserie", qtd: 13, prox: "1 km" },
+      { estabelecimento: "Açougue", qtd: 4, prox: "900 m" },
+      { estabelecimento: "Agência Bancária", qtd: 4, prox: "900 m" },
+      {
+        estabelecimento: "Resaurante/Pizzaria/Lanchonete",
+        qtd: 19,
+        prox: "750 m",
+      },
+    ],
+  },
+
+  siena: {
+    loc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29506.544699420603!2d-47.604870874644256!3d-22.41705049455112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7db17837948d9%3A0xe3f61856a453eafa!2sCondom%C3%ADnio%20Residencial%20Siena!5e0!3m2!1spt-BR!2sbr!4v1712922094263!5m2!1spt-BR!2sbr",
+    list: [
+      { estabelecimento: "Escola/Creche", qtd: 17, prox: "400 m" },
+      { estabelecimento: "Supermercado", qtd: 19, prox: "450 m" },
+      { estabelecimento: "Padaria", qtd: 16, prox: "1 Km" },
+      { estabelecimento: "Rotisserie", qtd: 10, prox: "1,1 Km" },
+      { estabelecimento: "Açougue", qtd: 4, prox: "900 m" },
+      { estabelecimento: "Agência Bancária", qtd: 5, prox: "2,7 Km" },
+      {
+        estabelecimento: "Resaurante/Pizzaria/Lanchonete",
+        qtd: 19,
+        prox: "350 m",
+      },
+    ],
+  },
 };

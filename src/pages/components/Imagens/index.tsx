@@ -109,7 +109,7 @@ export function Imagens({ empreendimento }: ImagensProps) {
           ))}
         </CardsContent>
         {imagens[empreendimento]?.[tipoSelecionado]?.length > loadedImages && (
-          <LoadMoreButton onClick={handleLoadMore}>
+          <LoadMoreButton theme={theme} onClick={handleLoadMore}>
             Carregar mais
           </LoadMoreButton>
         )}

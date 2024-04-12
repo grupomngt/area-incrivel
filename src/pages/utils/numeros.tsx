@@ -23,6 +23,7 @@ export const numeros: any = {
       icon: <HeartHandshake color="#fff" strokeWidth={2} size={90} />,
     },
   ],
+
   dinapoli2: [
     {
       data: "105 a 120 m²",
@@ -41,6 +42,50 @@ export const numeros: any = {
     },
     {
       data: "Recanto Paraíso",
+      title: "LOCALIZAÇÃO",
+      icon: <HeartHandshake color="#fff" strokeWidth={2} size={90} />,
+    },
+  ],
+  ravena: [
+    {
+      data: "105 a 130 m²",
+      title: "ÁREA TERRENO",
+      icon: <LandPlot color="#fff" strokeWidth={2} size={90} />,
+    },
+    {
+      data: "39 a 60 m²",
+      title: "ÁREA CONSTRUÍDA",
+      icon: <Home color="#fff" strokeWidth={2} size={90} />,
+    },
+    {
+      data: "164",
+      title: "UNIDADES",
+      icon: <Boxes color="#fff" strokeWidth={2} size={90} />,
+    },
+    {
+      data: "Vila Industrial",
+      title: "LOCALIZAÇÃO",
+      icon: <HeartHandshake color="#fff" strokeWidth={2} size={90} />,
+    },
+  ],
+  siena: [
+    {
+      data: "105 a 120 m²",
+      title: "ÁREA TERRENO",
+      icon: <LandPlot color="#fff" strokeWidth={2} size={90} />,
+    },
+    {
+      data: "39 a 60 m²",
+      title: "ÁREA CONSTRUÍDA",
+      icon: <Home color="#fff" strokeWidth={2} size={90} />,
+    },
+    {
+      data: "99",
+      title: "UNIDADES",
+      icon: <Boxes color="#fff" strokeWidth={2} size={90} />,
+    },
+    {
+      data: "Santa Eliza",
       title: "LOCALIZAÇÃO",
       icon: <HeartHandshake color="#fff" strokeWidth={2} size={90} />,
     },

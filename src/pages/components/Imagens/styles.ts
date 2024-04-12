@@ -115,7 +115,7 @@ export const LoadMoreButton = styled.button`
   height: fit-content;
   width: fit-content;
   padding: 15px 20px;
-  background-color: #7b7b7b;
+  background-color: ${(props) => props.theme.primaryColor};
   border: none;
   border-radius: 10px;
   color: #fff;
