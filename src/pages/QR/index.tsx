@@ -25,7 +25,9 @@ export function Qr({ path, name }: QrProps) {
   const ref = useRef<any>();
   useEffect(() => {
     if (ref.current) {
-      ref.current.click();
+      setTimeout(function () {
+        ref.current.click();
+      }, 1000);
     }
   }, []);
   return (
