@@ -107,12 +107,12 @@ export function DiNapoliII() {
           linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20II"
         />
 
-        {/* <Apresentacao
+        <Apresentacao
           iframe={
             <iframe
               width="100%"
-              src="https://www.youtube.com/embed/lzeoH57yFck"
-              title="Conheça a casa do Di Napoli II"
+              src="https://www.youtube.com/embed/uUFCYPn-k6o"
+              title="O que os moradores falam do bairro Recanto Paraiso em Rio Claro - SP"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
@@ -121,7 +121,7 @@ export function DiNapoliII() {
           }
           empreendimento={empreendimento}
           apresentacao="https://res.cloudinary.com/duv6mjghr/image/upload/v1712592778/dn2/Di_Napoli_II_1_pmql2g.png"
-        /> */}
+        />
         {/* <Modular /> */}
         <Ofertas
           empreendimento="dinapoli2"

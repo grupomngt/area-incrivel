@@ -114,4 +114,7 @@ export const ContentApresentacao = styled.div`
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+  iframe {
+    max-height: 600px;
+  }
 `;
