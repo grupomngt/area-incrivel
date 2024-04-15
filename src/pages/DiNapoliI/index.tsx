@@ -137,7 +137,7 @@ export function DiNapoliI() {
           //   ></iframe>
           // }
           empreendimento={empreendimento}
-          apresentacao="/dn1/apresentacaodn1.pdf"
+          apresentacao="/docs/folderdn1.pdf"
         />
         <Ofertas
           empreendimento="dinapoli1"

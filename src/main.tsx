@@ -115,7 +115,7 @@ const router = createBrowserRouter([
     path: "/md39",
     element: (
       <Qr
-        path="/docs/Memorial_Descritivo_Casa_Modular-39m2.pdf"
+        path="https://drive.google.com/file/d/1PyjFDU8gSgbDN8L867QbWJGW7qxCDDkf/view?usp=sharing"
         name="Memorial Descritivo - Casa Modular 39 m²"
       />
     ),
@@ -124,7 +124,7 @@ const router = createBrowserRouter([
     path: "/md48",
     element: (
       <Qr
-        path="/docs/Memorial_Descritivo_Casa_Modular-48m2.pdf"
+        path="https://drive.google.com/file/d/1YaUelOGPbp8pzdkq9mYrtWOhYUXVFrLZ/view?usp=sharing"
         name="Memorial Descritivo - Casa Modular 48 m²"
       />
     ),
@@ -133,7 +133,7 @@ const router = createBrowserRouter([
     path: "/md48s",
     element: (
       <Qr
-        path="/docs/Memorial_Descritivo_Casa_Modular-48m2-suite.pdf"
+        path="https://drive.google.com/file/d/1NxJVrgIMPMA9CXFzIdL-kRH_ajrl4s3h/view?usp=sharing"
         name="Memorial Descritivo - Casa Modular 48 m² - Suíte"
       />
     ),
@@ -142,7 +142,7 @@ const router = createBrowserRouter([
     path: "/md57",
     element: (
       <Qr
-        path="/docs/Memorial_Descritivo_Casa_Modular-57m2.pdf"
+        path="https://drive.google.com/file/d/1AAoLdiLWvet4MA-wjFBIMooHhtMc58vO/view?usp=sharing "
         name="Memorial Descritivo - Casa Modular 57 m²"
       />
     ),
@@ -151,8 +151,17 @@ const router = createBrowserRouter([
     path: "/c52",
     element: (
       <Qr
-        path="/docs/Memorial_Descritivo_Casa_Modular-39m2.pdf"
+        path="https://drive.google.com/file/d/1dkUeZQcc_Yn2PpVzTJ6Ta998ZdntLQB2/view?usp=sharing"
         name="Memorial Descritivo - Casa Modular 39 m2"
+      />
+    ),
+  },
+  {
+    path: "/dn1-memorial",
+    element: (
+      <Qr
+        path="https://drive.google.com/file/d/1MNZ_8GSRmuKeQ1wMrfyeqzArq7C-bHig/view?usp=sharing"
+        name="Memorial Descritivo - Di Napoli I"
       />
     ),
   },
@@ -160,7 +169,7 @@ const router = createBrowserRouter([
     path: "/c60",
     element: (
       <Qr
-        path="/docs/Memorial_Descritivo_Casa_Modular-39m2.pdf"
+        path="https://drive.google.com/file/d/1y_AzJK4Wxi1U4f4GfLBc6GR4wwCCjzfd/view?usp=sharing"
         name="Memorial Descritivo - Casa Modular 39 m2"
       />
     ),
@@ -198,6 +207,5 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
     <ToastContainer />
-    
   </React.StrictMode>
 );

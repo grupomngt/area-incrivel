@@ -129,7 +129,7 @@ export function Ravena() {
             ></iframe>
           }
           empreendimento={empreendimento}
-          apresentacao="https://res.cloudinary.com/duv6mjghr/image/upload/v1712592778/dn2/Di_Napoli_II_1_pmql2g.png"
+          apresentacao="/docs/ravena.pdf"
         />
         {/* <Modular /> */}
         <Ofertas
