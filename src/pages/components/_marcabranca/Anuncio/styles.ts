@@ -39,6 +39,8 @@ export const Content = styled.div`
 export const Image = styled.img`
   width: 50%;
   border-radius: 25px;
+  height: 400px;
+  object-fit: cover;
   @media (max-width: 1023px) {
     width: 100%;
   }
