@@ -2,11 +2,15 @@ import { ReactNode } from "react";
 
 import { Container } from "./styles";
 
-export function WhatsappButton() {
+interface WhatsappProps {
+  link: string;
+}
+
+export function WhatsappButton({ link }: WhatsappProps) {
   return (
     <Container>
       <a
-        href="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20empreendimentos%20da%20%C3%81rea%20Incr%C3%ADvel!"
+        href={link}
         className="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"

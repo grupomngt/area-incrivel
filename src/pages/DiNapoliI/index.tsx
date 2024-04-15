@@ -28,6 +28,7 @@ import { GrupoMNGT } from "../../components/GrupoMNGT";
 import { Redes } from "../../components/Redes";
 import ReactPixel from "react-facebook-pixel";
 import TagManager from "react-gtm-module";
+import { WhatsappButton } from "../../components/elements/WhatsappButton";
 
 const tagManagerArgs = {
   gtmId: "GTM-KXPBB883",
@@ -155,7 +156,7 @@ export function DiNapoliI() {
         <PontosDeInteresse
           empreendimento="Di Napoli I"
           empreendimentoPonto="dinapoli1"
-          linkWhatsapp="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%Di%20Napoli%20I"
+          linkWhatsapp="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20I"
         />
         <VejaMais
           empreendimento={empreendimento}
@@ -178,6 +179,7 @@ export function DiNapoliI() {
         <GrupoMNGT />
         <Footer />
       </Container>
+      <WhatsappButton link="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20I" />
     </ThemeProvider>
   );
 }

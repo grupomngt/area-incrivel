@@ -17,6 +17,7 @@ import { Empresas } from "./components/Empresas";
 import ReactPixel from "react-facebook-pixel";
 import { useEffect } from "react";
 import TagManager from "react-gtm-module";
+import { WhatsappButton } from "./components/elements/WhatsappButton";
 
 function App() {
   useEffect(() => {
@@ -46,6 +47,7 @@ function App() {
       <GrupoMNGT />
       <Contato />
       <Footer />
+      <WhatsappButton link="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20empreendimentos%20da%20%C3%81rea%20Incr%C3%ADvel!" />
     </main>
   );
 }
