@@ -49,7 +49,7 @@ export const Information = styled.div`
   width: 100%;
   display: flex;
   flex-flow: column;
-  gap: 25px;
+  gap: 10px;
 
   @media (max-width: 1023px) {
     flex-flow: column-reverse;
@@ -60,7 +60,7 @@ export const Information = styled.div`
 export const Topicos = styled.div`
   display: flex;
   flex-flow: column;
-  gap: 10px;
+  gap: 5px;
 
   span {
     font-size: 20px;
@@ -82,7 +82,7 @@ export const Text = styled.div`
 
   h1 {
     font-size: 36px;
-    line-height: 48px;
+    line-height: 44px;
   }
   h2 {
     font-size: 24px;

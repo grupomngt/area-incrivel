@@ -7,7 +7,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  padding: 20px 0;
+  padding: 15px 0;
   background-color: red;
   font-family: "Montserrat", sans-serif;
 `;
