@@ -38,29 +38,16 @@ export const Content = styled.div`
     object-fit: cover;
   }
 
-  h1 {
-    font-size: 36px;
-    font-weight: 700;
-    color: #030303;
-  }
-
   @media (max-width: 1750px) {
     max-width: 965px;
     gap: 50px;
   }
   @media (min-width: 768px) and (max-width: 1023px) {
     max-width: 624px;
-    h1 {
-      text-align: center;
-    }
   }
   @media (max-width: 767px) {
     max-width: 350px;
     align-items: center;
-    h1 {
-      text-align: center;
-      font-size: 28px;
-    }
   }
 `;
 
@@ -69,8 +56,7 @@ export const ContentGarantia = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
-  gap: 30px;
+  padding: 50px 0;
 
   @media (max-width: 767px) {
     flex-flow: column-reverse;
@@ -85,32 +71,46 @@ export const LeftContent = styled.div`
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(7px);
+  padding: 25px;
+  display: flex;
+  flex-flow: column;
+  gap: 20px;
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: inherit;
   }
-`;
-export const RightContent = styled.div`
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  gap: 25px;
-  align-items: center;
-`;
 
-export const Text = styled.div`
-  display: flex;
-  flex-flow: column;
-  gap: 15px;
   p {
     font-size: 20px;
-    font-weight: 400;
-    color: #030303;
+  }
 
-    span {
-      font-weight: 600;
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #030303;
+  }
+
+  @media (max-width: 1750px) {
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 100%;
+    h1 {
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 767px) {
+    width: 100%;
+    h1 {
+      text-align: center;
+      font-size: 28px;
+    }
+    p {
+      font-size: 18px;
     }
   }
 `;
@@ -123,7 +123,7 @@ export const Button = styled.a`
   height: fit-content;
   width: fit-content;
   text-decoration: none;
-  padding: 15px 75px;
+  padding: 15px 35px;
   background-color: #7b7b7b;
   border: none;
   border-radius: 10px;
@@ -141,14 +141,10 @@ export const Button = styled.a`
   &:hover {
     transform: scale(1.03) translateZ(0px);
   }
-`;
 
-export const Security = styled.div`
-  position: absolute;
-  right: -100px;
-  bottom: -100px;
-
-  @media (max-width: 767px) {
-    display: none;
+  @media (max-width: 1023px) {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 25px;
   }
 `;
