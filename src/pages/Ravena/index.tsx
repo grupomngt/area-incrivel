@@ -131,7 +131,7 @@ export function Ravena() {
           empreendimento={empreendimento}
           apresentacao="/docs/ravena.pdf"
         />
-        {/* <Modular /> */}
+        <Modular />
         <Ofertas
           empreendimento="dinapoli2"
           background="https://res.cloudinary.com/duv6mjghr/image/upload/v1712924006/ravena/projeto/02_6_-_Foto_z048kk.jpg"

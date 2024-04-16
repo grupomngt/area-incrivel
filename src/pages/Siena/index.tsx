@@ -130,7 +130,7 @@ export function Siena() {
           empreendimento={empreendimento}
           apresentacao="/docs/foldersiena.pdf"
         />
-        {/* <Modular /> */}
+        <Modular />
         <Ofertas
           empreendimento="dinapoli2"
           background="https://res.cloudinary.com/duv6mjghr/image/upload/v1712925515/siena/projeto/00_1_-_Photo_ojusox.jpg"
