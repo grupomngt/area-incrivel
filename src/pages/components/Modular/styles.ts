@@ -8,7 +8,8 @@ export const Container = styled.div`
   justify-content: center;
   background-color: #f0f0f0;
   position: relative;
-
+  position: relative;
+  z-index: 1;
   @media (max-width: 1023px) {
     padding: 40px 0;
   }
@@ -27,7 +28,6 @@ export const Content = styled.div`
   align-items: center;
   padding: 0;
   gap: 30px;
-  position: relative;
 
   video {
     position: absolute;
@@ -78,11 +78,13 @@ export const ContentGarantia = styled.div`
 `;
 
 export const LeftContent = styled.div`
-  width: 100%;
-  background-color: #ccc;
-  height: 510px;
+  width: 50%;
+  background-color: #ffffff60;
+  height: fit-content;
   border-radius: 25px;
-
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(7px);
   img {
     width: 100%;
     height: 100%;

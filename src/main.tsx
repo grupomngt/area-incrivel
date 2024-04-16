@@ -88,7 +88,7 @@ const router = createBrowserRouter([
     path: "/dn2folder-qr1",
     element: (
       <Qr
-        path="/docs/MAPEAMENTO-DINAPOLI.pdf"
+        path="https://drive.google.com/file/d/12L9D1PNALtbm-dRlyw4JbjhyLXATYmYJ/view?usp=sharing"
         name="Mapeamento - Di Napoli II"
       />
     ),
@@ -100,7 +100,10 @@ const router = createBrowserRouter([
   {
     path: "/rvfolder-qr2",
     element: (
-      <Qr path="/docs/MAPEAMENTO-RAVENA.pdf" name="Mapeamento - Ravena" />
+      <Qr
+        path="https://drive.google.com/file/d/1PDcYEjBNJjRyOlZNnheSgvnTA7iBzqSH/view?usp=sharing"
+        name="Mapeamento - Ravena"
+      />
     ),
   },
   {
@@ -109,7 +112,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/snfolder-qr2",
-    element: <Qr path="/docs/MAPEAMENTO-SIENA.pdf" name="Mapeamento - Siena" />,
+    element: (
+      <Qr
+        path="https://drive.google.com/file/d/1tTK7RXPo6DsWUPb25DM0W0QVOPOSuvhs/view?usp=drive_link"
+        name="Mapeamento - Siena"
+      />
+    ),
   },
   {
     path: "/md39",

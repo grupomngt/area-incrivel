@@ -123,7 +123,7 @@ export function DiNapoliII() {
           empreendimento={empreendimento}
           apresentacao="/docs/folderdn2.pdf"
         />
-        {/* <Modular /> */}
+        <Modular />
         <Ofertas
           empreendimento="dinapoli2"
           background="https://res.cloudinary.com/duv6mjghr/image/upload/v1712586384/dn2/portariadn2_zldii3.jpg"

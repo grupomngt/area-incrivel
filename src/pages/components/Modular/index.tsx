@@ -15,15 +15,18 @@ export function Modular() {
   return (
     <Container>
       <Content>
-        <h1>Garantia de entrega</h1>
         <ContentGarantia>
           <LeftContent>
-            <img
-              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1712773625/solidez_tnb6vp.jpg"
-              alt=""
-            />
+            <h1>Casa Modular</h1>
+            <p>
+              Após diversas pesquisas com consumidores, a Área Incrível criou
+              Casas Modulares com opções de 39 m² a 57 m². A planta modular
+              prevê reformas até 55 m² deixando preparada a estrutura para
+              ampliação, sem que você se preocupe com diversos aspectos da
+              engenharia.
+            </p>
           </LeftContent>
-          <RightContent>
+          {/* <RightContent>
             <Text>
               <p>
                 A Incorporadora <span>Área Incrível</span> é a única empresa do
@@ -37,7 +40,7 @@ export function Modular() {
             <Button href="/docs/Garantia.pdf" target="_blank">
               Ver documento!
             </Button>
-          </RightContent>
+          </RightContent> */}
         </ContentGarantia>
         <video autoPlay muted loop>
           <source src="/modularbackground.mp4" type="video/mp4" />
