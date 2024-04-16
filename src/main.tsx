@@ -88,7 +88,7 @@ const router = createBrowserRouter([
     path: "/dn2folder-qr1",
     element: (
       <Qr
-        path="/docs/MAPEAMENTO-DINAPOLII.pdf"
+        path="/docs/MAPEAMENTO-DINAPOLI.pdf"
         name="Mapeamento - Di Napoli II"
       />
     ),
