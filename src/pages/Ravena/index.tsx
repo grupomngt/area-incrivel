@@ -144,7 +144,7 @@ export function Ravena() {
         />
         <Garantia />
 
-        {/* <Depoimentos empreendimento="dinapoli1" /> */}
+        <Depoimentos empreendimento="ravena" />
         <Imagens empreendimento="ravena" />
         <PontosDeInteresse
           empreendimento="Ravena"
