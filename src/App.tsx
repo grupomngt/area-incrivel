@@ -18,11 +18,21 @@ import ReactPixel from "react-facebook-pixel";
 import { useEffect } from "react";
 import TagManager from "react-gtm-module";
 import { WhatsappButton } from "./components/elements/WhatsappButton";
-
+import { hotjar } from "react-hotjar";
 function App() {
   useEffect(() => {
-    ReactPixel.init("1528293361047131");
+    const optionsHotjar = {
+      id: 4947054,
+      sv: 6,
+    };
 
+    hotjar.initialize(optionsHotjar);
+    const options = {
+      autoConfig: true,
+      debug: false,
+    };
+    ReactPixel.init("1528293361047131", undefined, options);
+    ReactPixel.pageView();
     TagManager.initialize({ gtmId: "GTM-KXPBB883" });
   }, []);
 
