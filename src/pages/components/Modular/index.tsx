@@ -6,7 +6,6 @@ import {
   Content,
   ContentGarantia,
   LeftContent,
-  Security,
 } from "./styles";
 
 export function Modular() {
