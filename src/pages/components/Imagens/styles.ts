@@ -58,6 +58,9 @@ export const CardsContent = styled.div`
     width: 100%;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    /* align-self: stretch; */
+    max-height: 260px;
+    object-fit: cover;
 
     &:active {
       transform: scale(0.95) translateZ(0px) !important;
