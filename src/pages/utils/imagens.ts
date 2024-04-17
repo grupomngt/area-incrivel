@@ -53,12 +53,12 @@ export const imagens: any = {
     ],
 
     obras: [
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1713364568/ravena/obras/ravena1704_xicxvh.jpg",
       "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863469/ravena/obras/Ravena_II_3_gnslsc.jpg",
       "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863467/ravena/obras/Ravena_II_2_ourkmv.jpg",
       "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863466/ravena/obras/Ravena_II_1_p0ixnl.jpg",
       "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863419/ravena/obras/Ravena_I_4_u8qzde.jpg",
       "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863418/ravena/obras/Ravena_I_3_uwcbq8.jpg",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863416/ravena/obras/Ravena_I_1_b69rbx.jpg",
     ],
   },
   siena: {
@@ -72,8 +72,10 @@ export const imagens: any = {
     ],
 
     obras: [
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1713364617/siena/obras/siena11704_w830ll.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1713364615/siena/obras/siena31704_bla5y4.jpg",
+      "https://res.cloudinary.com/duv6mjghr/image/upload/v1713364614/siena/obras/siena21704_a0jha8.jpg",
       "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863348/siena/obras/Siena_2_cqlmiu.jpg",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863348/siena/obras/Siena_3_rdwfc7.jpg",
       "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863348/siena/obras/Siena_4_l27lls.jpg",
       "https://res.cloudinary.com/duv6mjghr/image/upload/v1712863348/siena/obras/Siena_1_qlk8rz.jpg",
     ],
