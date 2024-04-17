@@ -141,7 +141,7 @@ const router = createBrowserRouter([
     path: "/md48s",
     element: (
       <Qr
-        path="https://drive.google.com/file/d/1NxJVrgIMPMA9CXFzIdL-kRH_ajrl4s3h/view?usp=sharing"
+        path="https://drive.google.com/file/d/1ioSVTRvBsXNjmsLd0PFk4Ez3_d9XGZ_s/view"
         name="Memorial Descritivo - Casa Modular 48 m² - Suíte"
       />
     ),
