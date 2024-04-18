@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
@@ -9,14 +9,14 @@ export const Container = styled.div`
   height: fit-content;
   padding: 80px 0;
   justify-content: center;
-  background-image: url("https://res.cloudinary.com/duv6mjghr/image/upload/v1711492248/public/paper_gmir3l.png");
+  background-image: url('https://res.cloudinary.com/duv6mjghr/image/upload/v1711492248/public/paper_gmir3l.png');
   background-size: cover;
   background-repeat: no-repeat;
 
   @media (max-width: 1023px) {
     padding: 40px 0;
   }
-`;
+`
 
 export const Content = styled.div`
   max-width: 1394px;
@@ -44,7 +44,7 @@ export const Content = styled.div`
     max-width: 350px;
     align-items: center;
   }
-`;
+`
 
 export const Button = styled.button`
   display: flex;
@@ -82,13 +82,13 @@ export const Button = styled.button`
     padding: 15px 20px;
     font-size: 18px;
   }
-`;
+`
 
 export const Video = styled.div`
   width: 100%;
   iframe {
     /* max-width: 847px; */
-    height: 500px;
+    height: 600px;
     border: none;
     border-radius: 5px;
   }
@@ -104,7 +104,7 @@ export const Video = styled.div`
       height: 250px;
     }
   }
-`;
+`
 
 export const Text = styled.div`
   width: 100%;
@@ -130,4 +130,4 @@ export const Text = styled.div`
       text-align: center;
     }
   }
-`;
+`
