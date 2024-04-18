@@ -101,7 +101,7 @@ export const Video = styled.div`
   @media (max-width: 767px) {
     align-items: center;
     iframe {
-      height: 250px;
+      height: 300px;
     }
   }
 `
