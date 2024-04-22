@@ -212,7 +212,21 @@ const router = createBrowserRouter([
   },
   {
     path: '/tutorial-casa',
-    element: <Qr path="" name="Tutorial - Casa MDF" />,
+    element: (
+      <Qr
+        path="https://www.youtube.com/watch?v=rLibPJ81H-A&t=10s"
+        name="Tutorial - Casa MDF"
+      />
+    ),
+  },
+  {
+    path: '/tutorial-moveis',
+    element: (
+      <Qr
+        path="https://www.youtube.com/watch?v=yV2BW9iEhmw&t=6s"
+        name="Tutorial - Móveis MDF"
+      />
+    ),
   },
 ])
 
