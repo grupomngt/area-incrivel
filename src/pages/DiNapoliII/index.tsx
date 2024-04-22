@@ -1,91 +1,105 @@
-import { ReactNode, useEffect } from "react";
+import { ReactNode, useEffect } from 'react'
 
-import { Container } from "./styles";
-import { Footer } from "../../components/Footer";
-import { Hero } from "../components/Hero";
-import { Sobre } from "../components/Sobre";
-import { ThemeProvider } from "../ThemeContext";
-import { Apresentacao } from "../components/Apresentacao";
-import { VejaMais } from "../components/VejaMais";
-import { Estagio } from "../components/Estagio";
-import { Header } from "../components/Header";
-import { Explore } from "../components/3D";
-import { Numeros } from "../components/Numeros";
-import { Ofertas } from "../components/Ofertas";
-import { PontosDeInteresse } from "../components/PontosDeInteresse";
-import { Redes } from "../../components/Redes";
-import { Depoimentos } from "../components/Depoimentos";
-import { Imagens } from "../components/Imagens";
-import { Garantia } from "../components/Garantia";
-import { EA } from "../components/EA";
-import { PorqueArea } from "../components/PorqueArea";
-import { Empresas } from "../../components/Empresas";
-import { SobreArea } from "../components/SobreArea";
-import { Helmet } from "react-helmet";
-import { GrupoMNGT } from "../../components/GrupoMNGT";
-import ReactPixel from "react-facebook-pixel";
-import TagManager from "react-gtm-module";
-import { Modular } from "../components/Modular";
-import { WhatsappButton } from "../../components/elements/WhatsappButton";
+import { Container } from './styles'
+import { Footer } from '../../components/Footer'
+import { Hero } from '../components/Hero'
+import { Sobre } from '../components/Sobre'
+import { ThemeProvider } from '../ThemeContext'
+import { Apresentacao } from '../components/Apresentacao'
+import { VejaMais } from '../components/VejaMais'
+import { Estagio } from '../components/Estagio'
+import { Header } from '../components/Header'
+import { Explore } from '../components/3D'
+import { Numeros } from '../components/Numeros'
+import { Ofertas } from '../components/Ofertas'
+import { PontosDeInteresse } from '../components/PontosDeInteresse'
+import { Redes } from '../../components/Redes'
+import { Depoimentos } from '../components/Depoimentos'
+import { Imagens } from '../components/Imagens'
+import { Garantia } from '../components/Garantia'
+import { EA } from '../components/EA'
+import { PorqueArea } from '../components/PorqueArea'
+import { Empresas } from '../../components/Empresas'
+import { SobreArea } from '../components/SobreArea'
+import { Helmet } from 'react-helmet'
+import { GrupoMNGT } from '../../components/GrupoMNGT'
+import ReactPixel from 'react-facebook-pixel'
+import TagManager from 'react-gtm-module'
+import { Modular } from '../components/Modular'
+import { WhatsappButton } from '../../components/elements/WhatsappButton'
+import { hotjar } from 'react-hotjar'
 const tagManagerArgs = {
-  gtmId: "GTM-KXPBB883",
+  gtmId: 'GTM-KXPBB883',
   dataLayer: {
-    page: "Di Napoli II",
+    page: 'Di Napoli II',
   },
-  dataLayerName: "PageDataLayer",
-};
+  dataLayerName: 'PageDataLayer',
+}
 export function DiNapoliII() {
-  TagManager.dataLayer(tagManagerArgs);
+  TagManager.dataLayer(tagManagerArgs)
   useEffect(() => {
-    ReactPixel.init("1528293361047131");
+    ReactPixel.init('1528293361047131')
 
-    TagManager.initialize(tagManagerArgs);
-  }, []);
+    TagManager.initialize(tagManagerArgs)
+
+    const optionsHotjar = {
+      id: 4947054,
+      sv: 6,
+    }
+
+    hotjar.initialize(optionsHotjar)
+  }, [])
   const dataPhase = [
     {
-      name: "Fundação",
+      name: 'Fundação',
       value: 100,
     },
 
     {
-      name: "Passagem de Elétrica",
+      name: 'Passagem de Elétrica',
       value: 25,
     },
     {
-      name: "Levantamento de Placas Lightwall",
+      name: 'Levantamento de Placas Lightwall',
       value: 90,
     },
     {
-      name: "Pintura e Acabamentos",
+      name: 'Pintura e Acabamentos',
       value: 25,
     },
     {
-      name: "Esquadrias e Marmoaria",
+      name: 'Esquadrias e Marmoaria',
       value: 0,
     },
 
     {
-      name: "Pisos e Azulejos",
+      name: 'Pisos e Azulejos',
       value: 25,
     },
     {
-      name: "Portas e Janelas",
+      name: 'Portas e Janelas',
       value: 0,
     },
-  ];
+  ]
 
-  const totalValue = dataPhase.reduce((acc, curr) => acc + curr.value, 0);
+  const totalValue = dataPhase.reduce(
+    (acc, curr) => acc + curr.value,
+    0,
+  )
 
   // Calculando a média como uma porcentagem
-  const mediaPorcentagem = totalValue / dataPhase.length;
+  const mediaPorcentagem = totalValue / dataPhase.length
 
-  const empreendimento = "Di Napoli II";
+  const empreendimento = 'Di Napoli II'
   return (
     <ThemeProvider page="dinapoli2">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Di Napoli II</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link
+          rel="canonical"
+          href="http://mysite.com/example"
+        />
       </Helmet>
       <Container>
         <Header />
@@ -117,8 +131,7 @@ export function DiNapoliII() {
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
+              allowFullScreen></iframe>
           }
           empreendimento={empreendimento}
           apresentacao="/docs/folderdn2.pdf"
@@ -131,7 +144,9 @@ export function DiNapoliII() {
 
         <Empresas />
         <Estagio
-          percentageTotal={Number(mediaPorcentagem.toFixed(0))}
+          percentageTotal={Number(
+            mediaPorcentagem.toFixed(0),
+          )}
           listItems={dataPhase}
         />
         <Garantia />
@@ -159,5 +174,5 @@ export function DiNapoliII() {
       </Container>
       <WhatsappButton link="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Di%20Napoli%20II" />
     </ThemeProvider>
-  );
+  )
 }

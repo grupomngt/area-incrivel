@@ -1,32 +1,45 @@
-import { useEffect } from "react";
-import TagManager from "react-gtm-module";
-import { Anuncio } from "../components/_marcabranca/Anuncio";
-import { Banner } from "../components/_marcabranca/Banner";
-import { Container } from "./styles";
-import ReactPixel from "react-facebook-pixel";
-import { Helmet } from "react-helmet";
+import { useEffect } from 'react'
+import TagManager from 'react-gtm-module'
+import { Anuncio } from '../components/_marcabranca/Anuncio'
+import { Banner } from '../components/_marcabranca/Banner'
+import { Container } from './styles'
+import ReactPixel from 'react-facebook-pixel'
+import { Helmet } from 'react-helmet'
+import { hotjar } from 'react-hotjar'
 
 const tagManagerArgs = {
-  gtmId: "GTM-KXPBB883",
+  gtmId: 'GTM-KXPBB883',
   dataLayer: {
-    page: "Lote - Venda",
+    page: 'Lote - Venda',
   },
-  dataLayerName: "PageDataLayer",
-};
+  dataLayerName: 'PageDataLayer',
+}
 export function GoogleLote() {
-  TagManager.dataLayer(tagManagerArgs);
+  TagManager.dataLayer(tagManagerArgs)
   useEffect(() => {
-    ReactPixel.init("1528293361047131");
+    ReactPixel.init('1528293361047131')
 
-    TagManager.initialize(tagManagerArgs);
-  }, []);
+    TagManager.initialize(tagManagerArgs)
+    const optionsHotjar = {
+      id: 4947054,
+      sv: 6,
+    }
+
+    hotjar.initialize(optionsHotjar)
+  }, [])
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
         <title>Lote - Venda</title>
-        <link rel="canonical" href="http://mysite.com/example" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="canonical"
+          href="http://mysite.com/example"
+        />
+        <link
+          rel="preconnect"
+          href="https://fonts.googleapis.com"
+        />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
@@ -52,5 +65,5 @@ export function GoogleLote() {
         />
       </Container>
     </>
-  );
+  )
 }

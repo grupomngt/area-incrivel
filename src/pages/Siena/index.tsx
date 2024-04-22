@@ -1,98 +1,112 @@
-import { ReactNode, useEffect } from "react";
+import { ReactNode, useEffect } from 'react'
 
-import { Container } from "./styles";
-import { Footer } from "../../components/Footer";
-import { Hero } from "../components/Hero";
-import { Sobre } from "../components/Sobre";
-import { ThemeProvider } from "../ThemeContext";
-import { Apresentacao } from "../components/Apresentacao";
-import { VejaMais } from "../components/VejaMais";
-import { Estagio } from "../components/Estagio";
-import { Header } from "../components/Header";
-import { Explore } from "../components/3D";
-import { Numeros } from "../components/Numeros";
-import { Ofertas } from "../components/Ofertas";
-import { PontosDeInteresse } from "../components/PontosDeInteresse";
-import { Redes } from "../../components/Redes";
-import { Depoimentos } from "../components/Depoimentos";
-import { Imagens } from "../components/Imagens";
-import { Garantia } from "../components/Garantia";
-import { EA } from "../components/EA";
-import { PorqueArea } from "../components/PorqueArea";
-import { Empresas } from "../../components/Empresas";
-import { SobreArea } from "../components/SobreArea";
-import { Helmet } from "react-helmet";
-import { GrupoMNGT } from "../../components/GrupoMNGT";
-import ReactPixel from "react-facebook-pixel";
-import TagManager from "react-gtm-module";
-import { Modular } from "../components/Modular";
-import { WhatsappButton } from "../../components/elements/WhatsappButton";
+import { Container } from './styles'
+import { Footer } from '../../components/Footer'
+import { Hero } from '../components/Hero'
+import { Sobre } from '../components/Sobre'
+import { ThemeProvider } from '../ThemeContext'
+import { Apresentacao } from '../components/Apresentacao'
+import { VejaMais } from '../components/VejaMais'
+import { Estagio } from '../components/Estagio'
+import { Header } from '../components/Header'
+import { Explore } from '../components/3D'
+import { Numeros } from '../components/Numeros'
+import { Ofertas } from '../components/Ofertas'
+import { PontosDeInteresse } from '../components/PontosDeInteresse'
+import { Redes } from '../../components/Redes'
+import { Depoimentos } from '../components/Depoimentos'
+import { Imagens } from '../components/Imagens'
+import { Garantia } from '../components/Garantia'
+import { EA } from '../components/EA'
+import { PorqueArea } from '../components/PorqueArea'
+import { Empresas } from '../../components/Empresas'
+import { SobreArea } from '../components/SobreArea'
+import { Helmet } from 'react-helmet'
+import { GrupoMNGT } from '../../components/GrupoMNGT'
+import ReactPixel from 'react-facebook-pixel'
+import TagManager from 'react-gtm-module'
+import { Modular } from '../components/Modular'
+import { WhatsappButton } from '../../components/elements/WhatsappButton'
+import { hotjar } from 'react-hotjar'
 const tagManagerArgs = {
-  gtmId: "GTM-KXPBB883",
+  gtmId: 'GTM-KXPBB883',
   dataLayer: {
-    page: "Siena",
+    page: 'Siena',
   },
-  dataLayerName: "PageDataLayer",
-};
+  dataLayerName: 'PageDataLayer',
+}
 export function Siena() {
-  TagManager.dataLayer(tagManagerArgs);
+  TagManager.dataLayer(tagManagerArgs)
   useEffect(() => {
-    ReactPixel.init("1528293361047131");
+    ReactPixel.init('1528293361047131')
 
-    TagManager.initialize(tagManagerArgs);
-  }, []);
+    TagManager.initialize(tagManagerArgs)
+
+    const optionsHotjar = {
+      id: 4947054,
+      sv: 6,
+    }
+
+    hotjar.initialize(optionsHotjar)
+  }, [])
   const dataPhase = [
     {
-      name: "Rede de Abastecimento de Água",
+      name: 'Rede de Abastecimento de Água',
       value: 0,
     },
 
     {
-      name: "Rede de Captação de Água Pluvial",
+      name: 'Rede de Captação de Água Pluvial',
       value: 0,
     },
     {
-      name: "Rede de Captação de Esgoto",
+      name: 'Rede de Captação de Esgoto',
       value: 0,
     },
     {
-      name: "Pavimentação",
+      name: 'Pavimentação',
       value: 0,
     },
     {
-      name: "Contrução da Lixeira",
+      name: 'Contrução da Lixeira',
       value: 0,
     },
 
     {
-      name: "Construção do Playgorund",
+      name: 'Construção do Playgorund',
       value: 0,
     },
     {
-      name: "Construção da Portaria",
+      name: 'Construção da Portaria',
       value: 0,
     },
     {
-      name: "Construção do Salão de Festas",
+      name: 'Construção do Salão de Festas',
       value: 0,
     },
     {
-      name: "Construção da Piscina e Vestiário",
+      name: 'Construção da Piscina e Vestiário',
       value: 0,
     },
-  ];
-  const totalValue = dataPhase.reduce((acc, curr) => acc + curr.value, 0);
+  ]
+  const totalValue = dataPhase.reduce(
+    (acc, curr) => acc + curr.value,
+    0,
+  )
 
   // Calculando a média como uma porcentagem
-  const mediaPorcentagem = totalValue / dataPhase.length;
+  const mediaPorcentagem = totalValue / dataPhase.length
 
-  const empreendimento = "Siena";
+  const empreendimento = 'Siena'
   return (
     <ThemeProvider page="siena">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Siena</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link
+          rel="canonical"
+          href="http://mysite.com/example"
+        />
       </Helmet>
       <Container>
         <Header />
@@ -124,8 +138,7 @@ export function Siena() {
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            ></iframe>
+              allowFullScreen></iframe>
           }
           empreendimento={empreendimento}
           apresentacao="/docs/foldersiena.pdf"
@@ -138,7 +151,9 @@ export function Siena() {
 
         <Empresas />
         <Estagio
-          percentageTotal={Number(mediaPorcentagem.toFixed(0))}
+          percentageTotal={Number(
+            mediaPorcentagem.toFixed(0),
+          )}
           listItems={dataPhase}
         />
         <Garantia />
@@ -150,7 +165,10 @@ export function Siena() {
           empreendimentoPonto="siena"
           linkWhatsapp="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Siena"
         />
-        <VejaMais empreendimento={empreendimento} empreendimentoItens="siena" />
+        <VejaMais
+          empreendimento={empreendimento}
+          empreendimentoItens="siena"
+        />
 
         <SobreArea />
 
@@ -163,5 +181,5 @@ export function Siena() {
       </Container>
       <WhatsappButton link="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20Siena" />
     </ThemeProvider>
-  );
+  )
 }
