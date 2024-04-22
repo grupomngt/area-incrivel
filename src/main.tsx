@@ -19,6 +19,8 @@ import { Qr } from './pages/QR/index.tsx'
 import { GoogleCasa } from './pages/GoogleCasa/index.tsx'
 import { Ravena } from './pages/Ravena/index.tsx'
 import { Siena } from './pages/Siena/index.tsx'
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 function WhatsappRedirect() {
   window.location.href =
     'https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20empreendimentos%20da%20%C3%81rea%20Incr%C3%ADvel!'
@@ -220,5 +222,7 @@ ReactDOM.createRoot(
   <React.StrictMode>
     <RouterProvider router={router} />
     <ToastContainer />
+    <Analytics />
+    <SpeedInsights />
   </React.StrictMode>,
 )
