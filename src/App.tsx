@@ -43,15 +43,12 @@ function App() {
       <Numeros />
       <Apresentacao />
       <Empreendimentos />
-
       <Depoimentos />
-
       <Empresas />
       <Redes
         facebook="https://www.facebook.com/area.incrivelrc"
         instagram="https://www.instagram.com/area.incrivel/"
       />
-
       <Sobre />
       <Garantia />
       <GrupoMNGT />

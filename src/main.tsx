@@ -214,7 +214,7 @@ const router = createBrowserRouter([
     path: '/tutorial-casa',
     element: (
       <Qr
-        path="https://www.youtube.com/watch?v=rLibPJ81H-A&t=10s"
+        path="https://youtu.be/G81rqwGtsM8"
         name="Tutorial - Casa MDF"
       />
     ),
