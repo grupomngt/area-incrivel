@@ -52,14 +52,14 @@ export function GoogleLote() {
       </Helmet>
       <Container>
         <Banner
-          number="99"
+          number="130"
           type="TERRENO"
           whatsapp="(19) 3097-0234"
           link="https://wa.me/551930970234?text=Tenho+interesse+no+terreno"
         />
         <Anuncio
           imgUrl="https://res.cloudinary.com/duv6mjghr/image/upload/v1712778063/terreno_cq4ppv.jpg"
-          price="99.000,00"
+          price="130.000,00"
           type="terreno"
           link="https://wa.me/551930970234?text=Tenho+interesse+no+terreno"
         />

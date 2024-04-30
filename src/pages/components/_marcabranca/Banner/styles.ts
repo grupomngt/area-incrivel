@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
@@ -8,9 +8,9 @@ export const Container = styled.div`
   align-items: center;
   flex-flow: column;
   padding: 15px 0;
-  background-color: red;
-  font-family: "Montserrat", sans-serif;
-`;
+  background-color: #3a59a5;
+  font-family: 'Montserrat', sans-serif;
+`
 
 export const Content = styled.div`
   max-width: 1394px;
@@ -38,7 +38,7 @@ export const Content = styled.div`
     max-width: 350px;
     align-items: center;
   }
-`;
+`
 export const LeftContent = styled.div`
   display: flex;
   flex-flow: column;
@@ -54,8 +54,8 @@ export const LeftContent = styled.div`
   }
 
   h2 {
-    background-color: yellow;
-    color: red;
+    background-color: #fff212;
+    color: #3a59a5;
     width: 100%;
     padding: 0 10px;
     font-size: 36px;
@@ -67,6 +67,7 @@ export const LeftContent = styled.div`
     color: #fff;
     font-size: 28px;
     font-weight: 400;
+    color: #fff212;
   }
 
   @media (max-width: 767px) {
@@ -93,7 +94,7 @@ export const LeftContent = styled.div`
       text-align: center;
     }
   }
-`;
+`
 export const RightContent = styled.div`
   display: flex;
   flex-flow: column;
@@ -112,7 +113,7 @@ export const RightContent = styled.div`
     flex-flow: column;
     gap: 15px;
   }
-`;
+`
 
 export const Whatsapp = styled.a`
   display: flex;
@@ -126,4 +127,4 @@ export const Whatsapp = styled.a`
   img {
     width: 40px;
   }
-`;
+`
