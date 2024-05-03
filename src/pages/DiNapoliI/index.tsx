@@ -116,7 +116,7 @@ export function DiNapoliI() {
           subname="Condomínio Residencial"
           name={empreendimento}
           description="Casas de 2 ou 3 quartos"
-          value="1.074,00"
+          value="1.174,00"
           facebook="https://www.facebook.com/area.incrivelrc"
           instagram="https://www.instagram.com/dinapoli_residencial/"
           whatsapp=""
