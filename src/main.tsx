@@ -219,6 +219,20 @@ const router = createBrowserRouter([
       />
     ),
   },
+
+
+    {
+    path: '/bolacha',
+    element: (
+      <Qr
+        path="https://www.instagram.com/area.incrivel/"
+        name="Bolacha de Choop"
+      />
+    ),
+  },
+
+
+  
   {
     path: '/tutorial-moveis',
     element: (
