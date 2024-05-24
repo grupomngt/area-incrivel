@@ -28,7 +28,7 @@ export function Redes({ instagram, facebook }: RedesProps) {
         <ContentRedes>
           <Mockup>
             <img
-              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492224/public/iphonemockup_zz8x54.png"
+              src="https://primeiro.rioclarofc.com.br/~grupomn/iphonemockup.png"
               alt=""
             />
           </Mockup>
@@ -36,7 +36,7 @@ export function Redes({ instagram, facebook }: RedesProps) {
             <Instagram>
               <Icon>
                 <img
-                  src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492221/public/instalogo_hv7iob.png"
+                  src="https://primeiro.rioclarofc.com.br/~grupomn/instalogo.png"
                   alt=""
                 />
               </Icon>
@@ -50,7 +50,7 @@ export function Redes({ instagram, facebook }: RedesProps) {
             <Facebook>
               <Icon>
                 <img
-                  src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492199/public/facelogo_ktfypu.png"
+                  src="https://primeiro.rioclarofc.com.br/~grupomn/facelogo.png"
                   alt=""
                 />
               </Icon>
