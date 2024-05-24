@@ -62,7 +62,7 @@ export function Hero({
           <div>
             <a href={whatsapp} target="_blank">
               <img
-                src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492260/public/whatsapp_ax6srf.svg"
+                src="https://primeiro.rioclarofc.com.br/~grupomn/whatsapp.svg"
                 alt=""
               />
             </a>
@@ -70,7 +70,7 @@ export function Hero({
           <div>
             <a href={instagram} target="_blank">
               <img
-                src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492219/public/instagram_qgknfv.svg"
+                src="https://primeiro.rioclarofc.com.br/~grupomn/instagram.svg"
                 alt=""
               />
             </a>
@@ -78,7 +78,7 @@ export function Hero({
           <div>
             <a href={facebook} target="_blank">
               <img
-                src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492196/public/facebook_tn3piu.svg"
+                src="https://primeiro.rioclarofc.com.br/~grupomn/facebook.svg"
                 alt=""
               />
             </a>
