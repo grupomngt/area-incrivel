@@ -20,7 +20,7 @@ export function Header() {
       <Content>
         <a href="/">
           <img
-            src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492229/public/logocinza_cqnkti.png"
+            src="https://primeiro.rioclarofc.com.br/~grupomn/logocinza.png"
             alt=""
           />
         </a>
