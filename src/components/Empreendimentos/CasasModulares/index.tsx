@@ -21,8 +21,8 @@ export function CasasModulares() {
             }
             preco="R$ 740,00"
             linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20modulares%20de%2036m%C2%B2"
-            img="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086280/casade39_imj7kh.png"
-            imgModal="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086181/casa39_jbprwr.png"
+            img="https://primeiro.rioclarofc.com.br/~grupomn/casa39.png"
+            imgModal="https://primeiro.rioclarofc.com.br/~grupomn/casa39.png"
           />
           <CardEmpreendimento
             title={
@@ -32,8 +32,8 @@ export function CasasModulares() {
             }
             preco="R$ 931,00"
             linkButton="https://api.whatsapp.com/send?phone=551930970232&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20as%20casas%20modulares%20de%2048m%C2%B2"
-            img="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086280/casade48_n6x98f.png"
-            imgModal="https://res.cloudinary.com/duv6mjghr/image/upload/v1712086181/casa48_si74gq.png"
+            img="https://primeiro.rioclarofc.com.br/~grupomn/casa48.png"
+            imgModal="https://primeiro.rioclarofc.com.br/~grupomn/casa48.png"
           />
           <CardEmpreendimento
             title={
