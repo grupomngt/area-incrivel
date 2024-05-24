@@ -19,7 +19,7 @@ export function Empresas() {
         <ContentEmpresas>
           <EnergiaAmigaContent>
             <img
-              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492235/public/logoenergia_zppn2b.png"
+              src="https://primeiro.rioclarofc.com.br/~grupomn/logoenergia.png"
               alt=""
             />
             <h2>Energia Fotovoltaica</h2>{" "}
@@ -32,7 +32,7 @@ export function Empresas() {
           </EnergiaAmigaContent>
           <LarIncrivelContent>
             <img
-              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492239/public/logolar_m5m4nx.png"
+              src="https://primeiro.rioclarofc.com.br/~grupomn/logolar.png"
               alt=""
             />
             {/* <h2>Lar Incrivel: Construtora</h2>{" "} */}
@@ -48,7 +48,7 @@ export function Empresas() {
 
           <LarNoCelularContent>
             <img
-              src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492225/public/larnocellogo_ligc0q.png"
+              src="https://primeiro.rioclarofc.com.br/~grupomn/larnocellogo.png"
               alt=""
             />
             <h2>Automação Residencial</h2>{" "}
@@ -64,12 +64,12 @@ export function Empresas() {
 
       <img
         className="reddec"
-        src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492250/public/reddec_tzid6m.svg"
+        src="https://primeiro.rioclarofc.com.br/~grupomn/reddec.svg"
         alt=""
       />
       <img
         className="graydec"
-        src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492209/public/graydec_u1iwzv.svg"
+        src="https://primeiro.rioclarofc.com.br/~grupomn/graydec.svg"
         alt=""
       />
     </Container>
