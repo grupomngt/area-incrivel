@@ -17,7 +17,7 @@ export function WhatsappButton({ link }: WhatsappProps) {
         aria-label="Whatsapp"
       >
         <img
-          src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492261/public/whatsappicon_arkpst.svg"
+          src="https://primeiro.rioclarofc.com.br/~grupomn/whatsappicon.svg"
           alt=""
         />
       </a>
