@@ -58,7 +58,7 @@ export const LeftContent = styled.div`
 `;
 export const RightContent = styled.div`
   width: 100%;
-  background-image: url("https://res.cloudinary.com/duv6mjghr/image/upload/v1711492246/public/mandala_vp8fvi.png");
+  background-image: url("https://primeiro.rioclarofc.com.br/~grupomn/mandala.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
