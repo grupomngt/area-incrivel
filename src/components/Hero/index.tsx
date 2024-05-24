@@ -15,7 +15,7 @@ export function Hero() {
     <Container id="home">
       <video id="bgVideo" preload="true" autoPlay loop muted>
         <source
-          src="https://res.cloudinary.com/duv6mjghr/video/upload/v1711492245/public/backgroundai_ees96e.mp4"
+          src="https://primeiro.rioclarofc.com.br/~grupomn/backgroundai.mp4"
           type="video/mp4"
         />
       </video>
