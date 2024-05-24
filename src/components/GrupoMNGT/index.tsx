@@ -15,7 +15,7 @@ export function GrupoMNGT() {
       <Content>
         <LeftContent>
           <img
-            src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492236/public/logogrupo_pbwxkr.png"
+            src="https://primeiro.rioclarofc.com.br/~grupomn/logogrupo.png"
             alt=""
           />
           <Text>
