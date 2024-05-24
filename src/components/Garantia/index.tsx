@@ -42,7 +42,7 @@ export function Garantia() {
       </Content>
       <Security>
         <img
-          src="https://res.cloudinary.com/duv6mjghr/image/upload/v1711492209/public/graydec_u1iwzv.svg"
+          src="https://primeiro.rioclarofc.com.br/~grupomn/graydec.svg"
           alt=""
         />
       </Security>
