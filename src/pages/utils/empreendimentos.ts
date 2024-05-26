@@ -129,9 +129,9 @@ export const empreendimentos: any = {
       //     "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, pátio descoberto, varanda coberta e garagem, totalizando 53,26 m²",
       //   ],
       //   planta:
-      //     "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492238/public/dn1/plantas/PLANTAJK_ej1ctq.png",
+      //     "https://primeiro.rioclarofc.com.br/~grupomn//dn1/plantas/PLANTAJK.png",
       //   modal:
-      //     "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492187/public/dn1/modal/TIPOK_rdrhm8.jpg",
+      //     "https://primeiro.rioclarofc.com.br/~grupomn/dn1/modal/TIPOK.jpg",
       // },
       // {
       //   title: "casas - tipo l",
@@ -141,9 +141,9 @@ export const empreendimentos: any = {
       //     "Composta por 02 dormitórios, cozinha, sala de jantar e sala de estar, banheiro, área de serviços, varanda coberta e garagem, totalizando 46,55 m²",
       //   ],
       //   planta:
-      //     "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492243/public/dn1/plantas/PLANTAL_rgbdri.png",
+      //     "https://primeiro.rioclarofc.com.br/~grupomn/dn1/plantas/PLANTAL.png",
       //   modal:
-      //     "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492190/public/dn1/modal/TIPOL_veq3vs.jpg",
+      //     "https://primeiro.rioclarofc.com.br/~grupomn/dn1/modal/TIPOL.jpg",
       // },
     ],
   },
