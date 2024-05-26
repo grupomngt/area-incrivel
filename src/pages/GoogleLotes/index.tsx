@@ -58,7 +58,7 @@ export function GoogleLote() {
           link="https://wa.me/551930970234?text=Tenho+interesse+no+terreno"
         />
         <Anuncio
-          imgUrl="https://res.cloudinary.com/duv6mjghr/image/upload/v1712778063/terreno_cq4ppv.jpg"
+          imgUrl="https://primeiro.rioclarofc.com.br/~grupomn/terreno.jpg"
           price="130.000,00"
           type="terreno"
           link="https://wa.me/551930970234?text=Tenho+interesse+no+terreno"
