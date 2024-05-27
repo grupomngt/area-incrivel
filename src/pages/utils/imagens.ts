@@ -2,12 +2,12 @@ export const imagens: any = {
   dinapoli1: {
     projeto: [
       "https://primeiro.rioclarofc.com.br/~grupomn/fachadadn1.jpg",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150630/dn1/projeto/dn1exterior_vwfcm5.jpg",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150626/dn1/projeto/DI_NAPOLI_I_QUARTO_SUITE_01_cgc11e.jpg",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150627/dn1/projeto/DI_NAPOLI_I_SALA_jsbmls.jpg",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150626/dn1/projeto/DI_NAPOLI_I_SALA_E_COZINHA_duwfbf.jpg",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150628/dn1/projeto/dn1banheiro_mzfj4a.jpg",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150625/dn1/projeto/DI_NAPOLI_I_COZINHA_k8skhn.jpg",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/dn1exterior.jpg",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/DI_NAPOLI_I_QUARTO_SUITE_01.jpg",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/DI_NAPOLI_I_SALA.jpg",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/DI_NAPOLI_I_SALA_E_COZINHA.jpg",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/DI%20NAPOLI%20I_BANHEIRO.jpg",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/Di%20Napoli%20para%20Painel.jpg",
       "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150625/dn1/projeto/dn1vistacima_ygugbr.jpg",
     ],
 
