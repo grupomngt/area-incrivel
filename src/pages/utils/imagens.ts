@@ -8,13 +8,12 @@ export const imagens: any = {
       "https://primeiro.rioclarofc.com.br/~grupomn/dn1/DI_NAPOLI_I_SALA_E_COZINHA.jpg",
       "https://primeiro.rioclarofc.com.br/~grupomn/dn1/DI%20NAPOLI%20I_BANHEIRO.jpg",
       "https://primeiro.rioclarofc.com.br/~grupomn/dn1/Di%20Napoli%20para%20Painel.jpg",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712150625/dn1/projeto/dn1vistacima_ygugbr.jpg",
     ],
 
     obras: [
       "https://primeiro.rioclarofc.com.br/~grupomn/dn1/dji_fly_20240315_144922_261_1710527273515_aeb.jpg",
       "https://primeiro.rioclarofc.com.br/~grupomn/dn1/dji_fly_20240315_144804_254_1710524907872_photo_optimized.jpg",
-      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/obras/dji_fly_20240315_150038_269_1710527261998_aeb.jpg",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/dji_fly_20240315_150038_269_1710527261998_aeb.jpg",
       "https://primeiro.rioclarofc.com.br/~grupomn/dn1/obras/obra1dn1.png",
       "https://primeiro.rioclarofc.com.br/~grupomn/dn1/obras/obra2dn1.png",
       "https://primeiro.rioclarofc.com.br/~grupomn/dn1/obras/obra3dn1.png",
