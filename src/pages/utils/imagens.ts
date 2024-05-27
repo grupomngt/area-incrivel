@@ -12,13 +12,13 @@ export const imagens: any = {
     ],
 
     obras: [
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712321700/dn1/obras/dji_fly_20240315_144922_261_1710527273515_aeb_arvhcx.jpg",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712321700/dn1/obras/dji_fly_20240315_144804_254_1710524907872_photo_optimized_mqbjga.jpg",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1712321700/dn1/obras/dji_fly_20240315_150038_269_1710527261998_aeb_zeryn9.jpg",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492193/public/dn1/obras/obra1dn1_lbefxk.png",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492205/public/dn1/obras/obra2dn1_fanjin.png",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492206/public/dn1/obras/obra3dn1_vhnd96.png",
-      "https://res.cloudinary.com/duv6mjghr/image/upload/v1711492192/public/dn1/obras/obra4dn1_vymchn.png",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/dji_fly_20240315_144922_261_1710527273515_aeb.jpg",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/dji_fly_20240315_144804_254_1710524907872_photo_optimized.jpg",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/obras/dji_fly_20240315_150038_269_1710527261998_aeb.jpg",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/obras/obra1dn1.png",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/obras/obra2dn1.png",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/obras/obra3dn1.png",
+      "https://primeiro.rioclarofc.com.br/~grupomn/dn1/obras/obra4dn1.png",
     ],
   },
   dinapoli2: {
