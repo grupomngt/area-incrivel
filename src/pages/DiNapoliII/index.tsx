@@ -105,7 +105,7 @@ export function DiNapoliII() {
         <Header />
         <Hero
           category="lançamento"
-          video="https://res.cloudinary.com/duv6mjghr/video/upload/v1712586384/dn2/dinapoli2background_topkaf.mp4"
+          video="https://primeiro.rioclarofc.com.br/~grupomn/dn2/dinapoli2background.mp4"
           subname="Condomínio Residencial"
           name={empreendimento}
           description="Lotes | Casas Modulares | Casas incríveis"
