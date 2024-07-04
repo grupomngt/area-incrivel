@@ -9,8 +9,8 @@ import {
   RouterProvider,
   useNavigate,
 } from 'react-router-dom'
-import { DiNapoliI } from './pages/DiNapoliIXX/index.tsx'
-import { DiNapoliII } from './pages/DiNapoliIIXX/index.tsx'
+import { DiNapoliI } from './pages/DiNapoliI/index.tsx'
+import { DiNapoliII } from './pages/DiNapoliII/index.tsx'
 import { ToastContainer } from 'react-toastify'
 import { WhatsappButton } from './components/elements/WhatsappButton/index.tsx'
 import 'react-toastify/dist/ReactToastify.css'
