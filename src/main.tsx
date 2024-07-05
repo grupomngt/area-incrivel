@@ -232,6 +232,60 @@ const router = createBrowserRouter([
   },
 
 
+
+  {
+    path: '/obra-dn1',
+    element: (
+      <Qr
+        path="https://drive.google.com/file/d/15o4qVsJPAWxCWRV3NSdetbY6U6gzIV2B/view"
+        name="Área Incrível"
+      />
+    ),
+  },
+
+{
+    path: '/obra-dn2',
+    element: (
+      <Qr
+        path="https://drive.google.com/file/d/17milBgR0b7FRDKDR7rKrxt8QY0_nmvIA/view"
+        name="Área Incrível"
+      />
+    ),
+  },
+
+{
+    path: '/obra-ravena1',
+    element: (
+      <Qr
+        path="https://drive.google.com/file/d/1VMU05VQSFunHsOPLsSL7EJh_1Th-5ea6/view"
+        name="Área Incrível"
+      />
+    ),
+  },
+
+{
+    path: '/obra-ravena2',
+    element: (
+      <Qr
+        path="https://drive.google.com/file/d/1QKLR1UHR-EuxHCexcwLZcxdi759E9YZ3/view"
+        name="Área Incrível"
+      />
+    ),
+  },
+
+{
+    path: '/obra-siena',
+    element: (
+      <Qr
+        path="https://drive.google.com/file/d/16inA-W237puN89BxpgRJs2_7emDoiLq9/view"
+        name="Área Incrível"
+      />
+    ),
+  },
+
+
+
+  
   
   {
     path: '/tutorial-moveis',
