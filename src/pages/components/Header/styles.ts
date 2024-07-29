@@ -38,7 +38,7 @@ export const Content = styled.div`
   }
 
 
-#empreendimentos > div > section {display: none}
+ 
 
 
   a {
