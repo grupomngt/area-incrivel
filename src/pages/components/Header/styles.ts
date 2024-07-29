@@ -37,6 +37,10 @@ export const Content = styled.div`
     height: 45px;
   }
 
+
+#empreendimentos > div > section {display: none}
+
+
   a {
     text-decoration: none;
   }
