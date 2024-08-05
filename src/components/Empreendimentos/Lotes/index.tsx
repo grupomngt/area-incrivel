@@ -5,11 +5,11 @@ import { CardEmpreendimento } from "../../elements/CardEmpreendimento";
 
 import { List, ListItem } from "../../elements/CardEmpreendimento/styles";
 
-export function LotesX() {
+export function Lotes() {
   return (
-    <Container>
+     <!--   <Container>
       <Content>
-        <h1>
+       <h1>
           Lotes in<span>críveis</span>
         </h1>
         <ContentCards>
@@ -39,6 +39,6 @@ export function LotesX() {
           alt=""
         />
       </Image>
-    </Container>
+    </Container> -->
   );
 }
