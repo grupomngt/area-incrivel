@@ -6,7 +6,15 @@ import { CardEmpreendimento } from "../../elements/CardEmpreendimento";
 import { List, ListItem } from "../../elements/CardEmpreendimento/styles";
 
 export function Lotes() {
-  return (
+  return (        <Container>
+      <Content>
+       
+        <ContentCards>
+          
+        </ContentCards>
+      </Content>
+    
+    </Container> 
 
   );
 }
