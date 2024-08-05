@@ -5,7 +5,7 @@ import { CardEmpreendimento } from "../../elements/CardEmpreendimento";
 
 import { List, ListItem } from "../../elements/CardEmpreendimento/styles";
 
-export function Lotes() {
+export function LotesX() {
   return (
     <Container>
       <Content>
