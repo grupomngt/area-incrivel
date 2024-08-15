@@ -7,11 +7,11 @@ import { List, ListItem } from "../../elements/CardEmpreendimento/styles";
 
 export function CasasModulares() {
   return (
-    <Container>
+    <!------- <Container>
       <Content>
         <h1>
           Casas mo<span>dulares</span>
-        </h1>
+       </h1>
         <ContentCards>
           <CardEmpreendimento
             title={
@@ -54,6 +54,6 @@ export function CasasModulares() {
           alt=""
         />
       </Image>
-    </Container>
+    </Container> --->
   );
 }
