@@ -7,8 +7,6 @@ import { List, ListItem } from "../../elements/CardEmpreendimento/styles";
 
 export function CasasModulares() {
   return (
-    <Container>
 
-    </Container> 
   );
 }
