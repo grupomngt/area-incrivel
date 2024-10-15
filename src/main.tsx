@@ -233,6 +233,19 @@ const router = createBrowserRouter([
 
 
 
+
+      {
+    path: '/saia-do-aluguel',
+    element: (
+      <Qr
+        path="https://areaincrivel.rds.land/institucional-area-incrivel"
+        name="Area Incrivel"
+      />
+    ),
+  },
+
+
+
   {
     path: '/obra-dn1',
     element: (
